@@ -3,6 +3,15 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+vless://7fc993f5-7cd7-4485-9e6f-1f7c5160c910@3.14.129.61:2222?security=none&type=tcp#🔒 VL-TCP-NONE 🇺🇸 US-3.14.129.61:2222
+vless://2f760a0a-9b80-4097-9598-b2e8cba38d4b@[2a04:4e42:400::740]:443?security=tls&sni=pscresearch.faculty.ucdavis.edu&type=ws&host=uivtfybyi.com#🔒 VL-WS-TLS 🇺🇸 US-[2a04:4e42:400::740]:443
+vless://1a873334-0a8b-46e9-b6b5-92ff9dd34fa6@79.127.70.70:4810?type=tcp#🔒 VL-TCP-NA 🇮🇷 IR-79.127.70.70:4810
+vless://9e707ee3-44c1-443e-8b8f-2ead1744b097@45.32.150.173:8080?security=none&type=ws&path=%2F#🔒 VL-WS-NONE 🇫🇷 FR-45.32.150.173:8080
+vless://ffe6ffea-d8df-4efd-9fb1-ab093d6d0a2d@188.114.96.3:443?security=tls&sni=PpAl03.TavEn-rYDAn.WORkerS.DEv&type=ws&host=PPaL03.tAveN-rYDan.WorKERS.DeV&path=%2FXDibuDFmB3fiURk1%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-188.114.96.3:443
+vless://7b0066b1-5c34-4cf4-bf89-6d98da423807@37.152.179.33:777?security=none&type=tcp#🔒 VL-TCP-NONE 🇮🇷 IR-37.152.179.33:777
+vless://cc6b985d-0362-4129-8763-38564174fb3e@94.242.228.181:443?security=tls&sni=iryiccyne.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome&alpn=http/1.1,h2#🔒 VL-GRPC-TLS 🇱🇺 LU-94.242.228.181:443
+vless://cc6b985d-0362-4129-8763-38564174fb3e@154.197.75.91:443?security=tls&sni=iryiccyne.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome&alpn=http/1.1,h2#🔒 VL-GRPC-TLS 🇸🇨 SC-154.197.75.91:443
+vless://974d9e49-a16c-4260-ac92-950e270e8c43@95.215.207.132:59790?security=none&type=grpc&serviceName=@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig,@TheXConfig@TheXConfig,@TheXConfig#🔒 VL-GRPC-NONE 🇳🇱 NL-95.215.207.132:59790
 vless://cc6b985d-0362-4129-8763-38564174fb3e@167.68.42.121:443?security=tls&sni=iryiccyne.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome&alpn=http/1.1,h2#🔒 VL-GRPC-TLS 🇺🇸 US-167.68.42.121:443
 vless://ee57bd87-3831-49fa-8a60-825c560c4539@51.68.88.224:22671?type=tcp&host=telewebion.com&headerType=http#🔒 VL-TCP-NA 🇫🇷 FR-51.68.88.224:22671
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@84.32.131.13:8880?security=none&type=grpc#🔒 VL-GRPC-NONE 🇺🇸 US-84.32.131.13:8880
@@ -594,12 +603,3 @@ vless://4c32d919-8e17-44d4-a00a-b74ea4fd8782@91.107.153.239:43580?security=none&
 vless://3730fb73-80f7-4203-8f20-a0b7cbbdf654@[2a04:4e42:600::223]:80?security=none&type=ws&serviceName=@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray&host=%4aoi%6e.%55%6eli%6di%74ed%44ev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.%55%6eli%6di%74ed%44ev.DDNS1-IP.nEt&path=%2F%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev-----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev----%40%55%6eli%6di%74ed%44ev%3Fed%3D2480#🔒 VL-WS-NONE 🇺🇸 US-[2a04:4e42:600::223]:80
 vless://41bd1a4c-855e-4ebc-85ce-9c927840fa82@[2606:4700:20::681a:175]:2095?security=none&type=ws&host=www.myket.ir.www.cafebazaar.ir.%E5%83%8F%E9%B8%9F%E4%B8%80%E6%A0%B7%E8%87%AA%E7%94%B1.online.&path=@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet#🔒 VL-WS-NONE 🏴‍☠️ NA-[2606:4700:20::681a:175]:2095
 vless://7fc993f5-7cd7-4485-9e6f-1f7c5160c910@18.219.112.210:2222?security=none&type=tcp#🔒 VL-TCP-NONE 🇺🇸 US-18.219.112.210:2222
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.37.27.221:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇫🇷 FR-13.37.27.221:22222
-vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.152.97:443?security=tls&sni=147135001195.sec22org.com&type=tcp#🔒 VL-TCP-TLS 🇺🇸 US-135.148.152.97:443
-vless://9a7f0c6e-cb73-4baf-ad31-ac5f9af851c3@37.152.191.159:8080?security=none&type=tcp&host=fast.com&path=/&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-37.152.191.159:8080
-vless://253ef561-9e57-4336-befd-878ddd30df01@167.82.1.102:80?security=none&sni=teleirani.ir&type=ws&host=teleirani.ir&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-NONE 🇺🇸 US-167.82.1.102:80
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?type=ws&path=/http#🔒 VL-WS-NA 🇫🇷 FR-162.19.228.119:80
-vless://6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1@[2606:4700:20::ac43:42b1]:443?security=tls&sni=4sat.shop&type=ws&host=public.4sat.shop&fp=chrome&alpn=http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-[2606:4700:20::ac43:42b1]:443
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.21.30.21:80?type=ws#🔒 VL-WS-NA 🏴‍☠️ NA-104.21.30.21:80
-vless://a65eeff9-e5a5-45fb-a142-2210d98bcffd@162.159.130.234:443?security=tls&sni=hk3.servervless.de&type=ws&host=hk3.servervless.de&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.130.234:443
-vless://f2004126-5865-4980-b6dd-2211dbaadf10@104.26.7.214:443?security=tls&sni=rayan.sahel.us.kg&type=ws&host=rayan.sahel.us.kg#🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.7.214:443
