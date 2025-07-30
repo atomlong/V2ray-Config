@@ -3,6 +3,7 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+    window.addEventListener('DOMContentLoaded', function () {
       var cookieEl = document.getElementById('cookie-alert');
       cookieEl.style.display = 'block';
     })
@@ -602,4 +603,3 @@ vless://fac1c66f-3ba3-4d24-8ae8-d6049d949898@51.38.64.196:443?security=reality&e
             <div class="cf-error-footer cf-wrapper">
     <p>
       <span class="cf-footer-item">Cloudflare Ray ID: 967425bead810bfe</span>
-      <span class="cf-footer-separator">&bull;</span>
