@@ -3,6 +3,19 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
   }
 </script>
 <!--<![endif]-->
@@ -590,16 +603,3 @@ vless://e580d4d5-c6b8-48d9-8690-cf36de8a5a76@24.144.77.156:9008?path=/?ed=2048&s
                   href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
                   target="_blank"
                   rel="noopener noreferrer"
-               >
-                  Learn more about this issue →
-               </a>
-               </p>
-               
-            </div>
-
-            <div class="cf-error-footer cf-wrapper">
-    <p>
-      <span class="cf-footer-item">Cloudflare Ray ID: 9674246a785a05b6</span>
-      <span class="cf-footer-separator">&bull;</span>
-      <span class="cf-footer-item">2025-07-30 10:23:43 UTC</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden">

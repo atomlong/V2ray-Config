@@ -3,6 +3,19 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+      <style type="text/css">
+            body {
+               margin: 0;
                padding: 0;
             }
 
@@ -590,16 +603,3 @@ vless://ee323f69-1ca9-4e78-b07b-0d616039dece@italy.v2shop2.xyz:20927?mode=stream
             </div>
 
             <div class="cf-error-footer cf-wrapper">
-    <p>
-      <span class="cf-footer-item">Cloudflare Ray ID: 96742507c85dc97d</span>
-      <span class="cf-footer-separator">&bull;</span>
-      <span class="cf-footer-item">2025-07-30 10:24:08 UTC</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden">
-        <span class="cf-footer-separator">&bull;</span>
-        Your IP:
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">48.217.138.160</span>
-      </span>
-      <span class="cf-footer-separator">&bull;</span>
-      <span class="cf-footer-item"><span>Runs on </span><a rel="noopener noreferrer" href="https://workers.cloudflare.com?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare Workers</a></span>
-    </p>
