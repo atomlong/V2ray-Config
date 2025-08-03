@@ -3,15 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-               
-               
-               <p>
-               <a
-                  href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
-                  target="_blank"
-                  rel="noopener noreferrer"
-               >
-                  Learn more about this issue →
                </a>
                </p>
                
@@ -603,3 +594,12 @@ vless://fe7fa45f-4c54-4d93-bf00-609648d8b786@172.66.40.99:8080?security=&type=ws
             .cf-error-description {
                max-width: 600px;
             }
+      </style>
+   </head>
+   <body>
+      <div id="cf-wrapper">
+         <div
+            id="cookie-alert"
+            class="cf-alert cf-alert-error cf-cookie-error"
+            data-translate="enable_cookies"
+         >
