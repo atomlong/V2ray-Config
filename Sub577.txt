@@ -3,7 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-               <p>
                <span style="width:16px; display:inline-block; vertical-align:text-top">
                   <svg
                      fill="#b03340"
@@ -603,3 +602,4 @@ vless://turboo-server@fast.ultra-irancell.com:46801?security=none&encryption=non
 
 <!--[if gte IE 10]><!-->
 <script>
+  if (!navigator.cookieEnabled) {
