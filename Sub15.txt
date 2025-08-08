@@ -3,7 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@45.15.127.184:8443?path=/&security=tls&encryption=none&type=ws#🇫🇮FI_6056_@Surfboardv2ray
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@45.15.127.187:2052/?type=ws&encryption=none&flow=#🇫🇮FI_6057_@Surfboardv2ray
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@45.15.127.187:2053?mode=gun&security=tls&encryption=none&type=grpc#🇫🇮FI_6058_@Surfboardv2ray
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@45.15.127.187:2082/?type=ws&encryption=none&flow=#🇫🇮FI_6059_@Surfboardv2ray
@@ -603,3 +602,4 @@ vless://Parsashonam-279@172.66.168.210:8080?type=ws&path=/Parsashonam-Parsashona
       <span class="cf-footer-separator sm:hidden">&bull;</span>
       <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
         Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
