@@ -3,11 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-    
-            <section></section><!-- spacer -->
-    
-            <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
                     <div class="cf-column">
                         <h2 data-translate="what_happened">What happened?</h2>
                             <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
@@ -603,3 +598,8 @@ vless://daffd076-1643-41c6-ad60-edc3f280f809@104.17.148.22:8080?path=/@unlimited
   </div><!-- /.error-footer -->
 
         </div><!-- /#cf-error-details -->
+    </div><!-- /#cf-wrapper -->
+
+     <script>
+    window._cf_translation = {};
+    
