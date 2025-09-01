@@ -3,552 +3,94 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-        <div id="cf-error-details" class="cf-error-details-wrapper">
+            data-translate="enable_cookies"
+         >
+            Please enable cookies.
+         </div>
+         <div id="cf-error-details" class="cf-error-details-wrapper">
             <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 977b76291c9d7a97 &bull; 2025-08-31 09:22:06 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-            </div><!-- /.header -->
-    
-            <section></section><!-- spacer -->
-    
+               <h1>
+               <span class="cf-error-type" data-translate="please check back later"
+                  >Please check back later</span
+               >
+               </h1>
+               <h2 class="cf-subheadline">Error 1027</h2>
+            </div>
+
             <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
-                    <div class="cf-column">
-                        <h2 data-translate="what_happened">What happened?</h2>
-                            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-                    </div>
-                    
-                    <div class="cf-column">
-                        <h2 data-translate="what_can_i_do">What can I do?</h2>
-                            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
-    
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b76291c9d7a97</strong></span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+               <p>
+               <span style="width:16px; display:inline-block; vertical-align:text-top">
+                  <svg
+                     fill="#b03340"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                     d="M15.672,14.2,8.3,1.443a.352.352,0,0,0-.609,0L.328,14.2a.352.352,0,0,0,.3.527H15.368A.352.352,0,0,0,15.672,14.2ZM8.743,12.9a.221.221,0,0,1-.221.221H7.478a.221.221,0,0,1-.221-.221V11.86a.221.221,0,0,1,.221-.221H8.522a.221.221,0,0,1,.221.221Zm-.025-2.422H7.282L7.257,6.005H8.743Z"
+                     />
+                  </svg>
+               </span>
+               <strong>
+                    This website has been temporarily rate limited
+               </strong>
+               </p>
+               <p class="cf-error-description">
+                   You cannot access this site because the owner has reached their plan limits. Check back later once traffic has gone down.
+               </p>
+               
+               <p class="cf-error-description">
+                   If you are owner of this website, prevent this from happening again by upgrading your plan on the <a href="https://dash.cloudflare.com/?account=workers/plans" target="_blank">Cloudflare Workers dashboard</a>.
+               </p>
+               
+               
+               <p>
+               <a
+                  href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  Learn more about this issue →
+               </a>
+               </p>
+               
+            </div>
+
+            <div class="cf-error-footer cf-wrapper">
+    <p>
+      <span class="cf-footer-item">Cloudflare Ray ID: 9785a4887aaf2e4f</span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item">2025-09-01 15:01:23 UTC</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden">
+        <span class="cf-footer-separator">&bull;</span>
         Your IP:
         <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">135.119.38.34</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
+        <span class="hidden" id="cf-footer-ip">52.173.181.23</span>
       </span>
-      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-      
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item"><span>Runs on </span><a rel="noopener noreferrer" href="https://workers.cloudflare.com?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare Workers</a></span>
     </p>
     <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-  </div><!-- /.error-footer -->
-
-        </div><!-- /#cf-error-details -->
-    </div><!-- /#cf-wrapper -->
-
-     <script>
-    window._cf_translation = {};
-    
-    
-  </script> 
-</body>
-</html>_6463_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.168.68:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇭🇪🇦🇩🇣🆯🇡🇹🇮🇹🇱🇪🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇡🇔🇭🇪🇦🇩🇣🆯🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🇣🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🇇🇣🇪🇷🇷🇴🇷🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇨🇴🇩🇪🇇🇣🇖🇖🇕🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇲🇦🇱🇱🇅🇨🇱🇦🇸🇸🇢🇇🇭🇪🇦🇩🇮🇳🇬🇒🇷🇦🇾🇒🇮🇩🇇🇣🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇜🇧🇜🇛🇗🇞🇦🇧🇨🇩🇗🇨🇝🇫🇅🇋🇧🇺🇱🇱🇠🇅🇗🇕🇗🇚🇒🇕🇝🇒🇘🇖🇅🇕🇞🇟🇗🇗🇟🇕🇜🇅🇺🇹🇨🇡🇔🇸🇲🇦🇱🇱🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🈄🇩🇪🇸🇨🇇🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇭🇪🇦🇩🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇪🇨🇹🇮🇴🇳🇣🇡🇔🇸🇪🇨🇹🇮🇴🇳🇣🇡🇆🇒🇒🇅🇸🇵🇦🇨🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇸🇅🇹🇼🇴🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇭🇦🇵🇵🇪🇳🇪🇩🇇🇣🇼🇭🇦🇹🇅🇭🇦🇵🇵🇪🇳🇪🇩🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇾🇴🇺🇌🇻🇪🇅🇷🇪🇶🇺🇪🇸🇹🇪🇩🇅🇦🇅🇵🇦🇬🇪🇅🇴🇳🇅🇦🇅🇼🇪🇧🇸🇮🇹🇪🇅🇍🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇎🇅🇹🇭🇦🇹🇅🇮🇸🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇖🇕🇕🇽🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇅🇳🇪🇹🇼🇴🇷🇰🇓🇅🇦🇳🇅🇺🇳🇰🇳🇴🇼🇳🇅🇪🇷🇷🇴🇷🇅🇴🇨🇨🇺🇷🇷🇪🇩🇅🇼🇭🇮🇱🇪🇅🇷🇪🇳🇩🇪🇷🇮🇳🇬🇅🇹🇭🇪🇅🇵🇦🇬🇪🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇨🇦🇳🈄🇮🈄🇩🇴🇇🇣🇼🇭🇦🇹🇅🇨🇦🇳🇅🇮🇅🇩🇴🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇡🇸🇹🇷🇴🇳🇬🇣🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇟🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇧🇷🇅🇔🇣🇷🇪🇫🇪🇷🇅🇹🇴🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇴🇧🇸🇪🇷🇻🇦🇧🇮🇱🇮🇹🇾🇔🇪🇷🇷🇴🇷🇸🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇼🇴🇷🇰🇪🇷🇸🇅🇒🇅🇪🇷🇷🇴🇷🇸🇅🇦🇳🇩🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇸🇡🇔🇦🇣🇅🇦🇳🇩🇅🇨🇭🇪🇨🇰🇅🇼🇴🇷🇰🇪🇷🇸🇅🇱🇴🇬🇸🇅🇫🇴🇷🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇸🇪🇨🇹🇮🇴🇳🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇼🇒🇗🇙🇕🇅🇱🇬🇟🇼🇒🇫🇺🇱🇱🇅🇵🇾🇒🇖🇕🇅🇸🇲🇟🇵🇾🇒🇙🇅🇸🇲🇟🇵🇽🇒🇝🇅🇲🇽🇒🇦🇺🇹🇴🇅🇹🇪🇽🇹🇒🇨🇪🇳🇹🇪🇷🇅🇸🇲🇟🇹🇪🇽🇹🇒🇱🇪🇫🇹🇅🇧🇴🇷🇩🇪🇷🇒🇸🇴🇱🇮🇩🇅🇧🇴🇷🇩🇪🇷🇒🇕🇅🇧🇴🇷🇩🇪🇷🇒🇹🇅🇧🇴🇷🇩🇪🇷🇒🇬🇷🇦🇾🇒🇘🇕🇕🇇🇣🆯🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇹🇪🇽🇹🇒🇖🇘🇇🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇡🇸🇹🇷🇴🇳🇬🇅🇨🇱🇦🇸🇸🇢🇇🇫🇴🇳🇹🇒🇸🇪🇲🇮🇧🇴🇱🇩🇇🇣🇞🇜🇜🇧🇜🇛🇗🇞🇦🇧🇨🇩🇗🇨🇝🇫🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇖🇘🇚🇓🇖🇖🇞🇓🇘🇝🇓🇘🇙🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇡🇸🇵🇦🇳🇣🇵🇪🇷🇫🇴🇷🇲🇦🇳🇨🇪🇅🇋🇦🇲🇵🇠🇅🇸🇪🇨🇺🇷🇮🇹🇾🇅🇧🇾🇡🇔🇸🇵🇦🇳🇣🇅🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇅🇒🇒🇣🆯🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-        <div id="cf-error-details" class="cf-error-details-wrapper">
-            <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 977b7629abcd2c8f &bull; 2025-08-31 09:22:07 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-            </div><!-- /.header -->
-    
-            <section></section><!-- spacer -->
-    
-            <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
-                    <div class="cf-column">
-                        <h2 data-translate="what_happened">What happened?</h2>
-                            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-                    </div>
-                    
-                    <div class="cf-column">
-                        <h2 data-translate="what_can_i_do">What can I do?</h2>
-                            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
-    
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b7629abcd2c8f</strong></span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-        Your IP:
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">135.119.38.34</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
-      </span>
-      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-      
-    </p>
-    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-  </div><!-- /.error-footer -->
-
-        </div><!-- /#cf-error-details -->
-    </div><!-- /#cf-wrapper -->
-
-     <script>
-    window._cf_translation = {};
-    
-    
-  </script> 
-</body>
-</html>_6464_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.168.68:3090?mode=gun&security=reality&encryption=none&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇭🇪🇦🇩🇣🆯🇡🇹🇮🇹🇱🇪🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇡🇔🇭🇪🇦🇩🇣🆯🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🇣🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🇇🇣🇪🇷🇷🇴🇷🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇨🇴🇩🇪🇇🇣🇖🇖🇕🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇲🇦🇱🇱🇅🇨🇱🇦🇸🇸🇢🇇🇭🇪🇦🇩🇮🇳🇬🇒🇷🇦🇾🇒🇮🇩🇇🇣🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇜🇧🇜🇛🇗🇦🇛🇨🇫🇧🇖🇩🇙🇦🇅🇋🇧🇺🇱🇱🇠🇅🇗🇕🇗🇚🇒🇕🇝🇒🇘🇖🇅🇕🇞🇟🇗🇗🇟🇕🇜🇅🇺🇹🇨🇡🇔🇸🇲🇦🇱🇱🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🈄🇩🇪🇸🇨🇇🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇭🇪🇦🇩🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇪🇨🇹🇮🇴🇳🇣🇡🇔🇸🇪🇨🇹🇮🇴🇳🇣🇡🇆🇒🇒🇅🇸🇵🇦🇨🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇸🇅🇹🇼🇴🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇭🇦🇵🇵🇪🇳🇪🇩🇇🇣🇼🇭🇦🇹🇅🇭🇦🇵🇵🇪🇳🇪🇩🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇾🇴🇺🇌🇻🇪🇅🇷🇪🇶🇺🇪🇸🇹🇪🇩🇅🇦🇅🇵🇦🇬🇪🇅🇴🇳🇅🇦🇅🇼🇪🇧🇸🇮🇹🇪🇅🇍🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇎🇅🇹🇭🇦🇹🇅🇮🇸🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇖🇕🇕🇽🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇅🇳🇪🇹🇼🇴🇷🇰🇓🇅🇦🇳🇅🇺🇳🇰🇳🇴🇼🇳🇅🇪🇷🇷🇴🇷🇅🇴🇨🇨🇺🇷🇷🇪🇩🇅🇼🇭🇮🇱🇪🇅🇷🇪🇳🇩🇪🇷🇮🇳🇬🇅🇹🇭🇪🇅🇵🇦🇬🇪🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇨🇦🇳🈄🇮🈄🇩🇴🇇🇣🇼🇭🇦🇹🇅🇨🇦🇳🇅🇮🇅🇩🇴🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇡🇸🇹🇷🇴🇳🇬🇣🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇟🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇧🇷🇅🇔🇣🇷🇪🇫🇪🇷🇅🇹🇴🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇴🇧🇸🇪🇷🇻🇦🇧🇮🇱🇮🇹🇾🇔🇪🇷🇷🇴🇷🇸🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇼🇴🇷🇰🇪🇷🇸🇅🇒🇅🇪🇷🇷🇴🇷🇸🇅🇦🇳🇩🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇸🇡🇔🇦🇣🇅🇦🇳🇩🇅🇨🇭🇪🇨🇰🇅🇼🇴🇷🇰🇪🇷🇸🇅🇱🇴🇬🇸🇅🇫🇴🇷🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇸🇪🇨🇹🇮🇴🇳🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇼🇒🇗🇙🇕🇅🇱🇬🇟🇼🇒🇫🇺🇱🇱🇅🇵🇾🇒🇖🇕🇅🇸🇲🇟🇵🇾🇒🇙🇅🇸🇲🇟🇵🇽🇒🇝🇅🇲🇽🇒🇦🇺🇹🇴🇅🇹🇪🇽🇹🇒🇨🇪🇳🇹🇪🇷🇅🇸🇲🇟🇹🇪🇽🇹🇒🇱🇪🇫🇹🇅🇧🇴🇷🇩🇪🇷🇒🇸🇴🇱🇮🇩🇅🇧🇴🇷🇩🇪🇷🇒🇕🇅🇧🇴🇷🇩🇪🇷🇒🇹🇅🇧🇴🇷🇩🇪🇷🇒🇬🇷🇦🇾🇒🇘🇕🇕🇇🇣🆯🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇹🇪🇽🇹🇒🇖🇘🇇🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇡🇸🇹🇷🇴🇳🇬🇅🇨🇱🇦🇸🇸🇢🇇🇫🇴🇳🇹🇒🇸🇪🇲🇮🇧🇴🇱🇩🇇🇣🇞🇜🇜🇧🇜🇛🇗🇦🇛🇨🇫🇧🇖🇩🇙🇦🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇖🇘🇚🇓🇖🇖🇞🇓🇘🇝🇓🇘🇙🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇡🇸🇵🇦🇳🇣🇵🇪🇷🇫🇴🇷🇲🇦🇳🇨🇪🇅🇋🇦🇲🇵🇠🇅🇸🇪🇨🇺🇷🇮🇹🇾🇅🇧🇾🇡🇔🇸🇵🇦🇳🇣🇅🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇅🇒🇒🇣🆯🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-        <div id="cf-error-details" class="cf-error-details-wrapper">
-            <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 977b762a6cfb1d4a &bull; 2025-08-31 09:22:07 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-            </div><!-- /.header -->
-    
-            <section></section><!-- spacer -->
-    
-            <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
-                    <div class="cf-column">
-                        <h2 data-translate="what_happened">What happened?</h2>
-                            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-                    </div>
-                    
-                    <div class="cf-column">
-                        <h2 data-translate="what_can_i_do">What can I do?</h2>
-                            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
-    
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b762a6cfb1d4a</strong></span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-        Your IP:
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">135.119.38.34</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
-      </span>
-      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-      
-    </p>
-    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-  </div><!-- /.error-footer -->
-
-        </div><!-- /#cf-error-details -->
-    </div><!-- /#cf-wrapper -->
-
-     <script>
-    window._cf_translation = {};
-    
-    
-  </script> 
-</body>
-</html>_6465_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.168.68:3090?mode=gun&security=reality&encryption=none&authority=V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6466_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.168.68:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6467_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.185.96:3080?mode=gun&security=reality&encryption=none&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6468_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.185.96:3080?mode=gun&security=reality&encryption=none&authority=-V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6469_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.185.96:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6470_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.185.96:3090?mode=gun&security=reality&encryption=none&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6471_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.185.96:3090?mode=gun&security=reality&encryption=none&authority=-V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6472_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.185.96:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6473_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.187.212:3080?mode=gun&security=reality&encryption=none&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6474_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.187.212:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6475_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.187.212:3090?mode=gun&security=reality&encryption=none&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6476_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.187.212:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6477_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.188.21:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=IBTQswLX4U6WI_tl305r8FKwhZoCka5nW0_idDXLUlo&fp=chrome&sni=journalofbigdata.springeropen.com&sid=eb91f5c0&spx=/#🇩🇪DE_6478_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.188.21:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=IBTQswLX4U6WI_tl305r8FKwhZoCka5nW0_idDXLUlo&fp=chrome&sni=journalofbigdata.springeropen.com&sid=eb91f5c0&spx=/#🇩🇪DE_6479_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.191.81:3080?mode=gun&security=reality&encryption=none&authority=V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6480_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.191.81:3080?mode=gun&security=reality&encryption=none&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇭🇪🇦🇩🇣🆯🇡🇹🇮🇹🇱🇪🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇡🇔🇭🇪🇦🇩🇣🆯🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🇣🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🇇🇣🇪🇷🇷🇴🇷🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇨🇴🇩🇪🇇🇣🇖🇖🇕🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇲🇦🇱🇱🇅🇨🇱🇦🇸🇸🇢🇇🇭🇪🇦🇩🇮🇳🇬🇒🇷🇦🇾🇒🇮🇩🇇🇣🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇜🇧🇜🇛🇘🇘🇖🇫🇦🇗🇝🇕🇛🇪🇅🇋🇧🇺🇱🇱🇠🇅🇗🇕🇗🇚🇒🇕🇝🇒🇘🇖🇅🇕🇞🇟🇗🇗🇟🇕🇝🇅🇺🇹🇨🇡🇔🇸🇲🇦🇱🇱🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🈄🇩🇪🇸🇨🇇🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇭🇪🇦🇩🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇪🇨🇹🇮🇴🇳🇣🇡🇔🇸🇪🇨🇹🇮🇴🇳🇣🇡🇆🇒🇒🇅🇸🇵🇦🇨🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇸🇅🇹🇼🇴🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇭🇦🇵🇵🇪🇳🇪🇩🇇🇣🇼🇭🇦🇹🇅🇭🇦🇵🇵🇪🇳🇪🇩🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇾🇴🇺🇌🇻🇪🇅🇷🇪🇶🇺🇪🇸🇹🇪🇩🇅🇦🇅🇵🇦🇬🇪🇅🇴🇳🇅🇦🇅🇼🇪🇧🇸🇮🇹🇪🇅🇍🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇎🇅🇹🇭🇦🇹🇅🇮🇸🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇖🇕🇕🇽🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇅🇳🇪🇹🇼🇴🇷🇰🇓🇅🇦🇳🇅🇺🇳🇰🇳🇴🇼🇳🇅🇪🇷🇷🇴🇷🇅🇴🇨🇨🇺🇷🇷🇪🇩🇅🇼🇭🇮🇱🇪🇅🇷🇪🇳🇩🇪🇷🇮🇳🇬🇅🇹🇭🇪🇅🇵🇦🇬🇪🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇨🇦🇳🈄🇮🈄🇩🇴🇇🇣🇼🇭🇦🇹🇅🇨🇦🇳🇅🇮🇅🇩🇴🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇡🇸🇹🇷🇴🇳🇬🇣🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇟🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇧🇷🇅🇔🇣🇷🇪🇫🇪🇷🇅🇹🇴🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇴🇧🇸🇪🇷🇻🇦🇧🇮🇱🇮🇹🇾🇔🇪🇷🇷🇴🇷🇸🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇼🇴🇷🇰🇪🇷🇸🇅🇒🇅🇪🇷🇷🇴🇷🇸🇅🇦🇳🇩🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇸🇡🇔🇦🇣🇅🇦🇳🇩🇅🇨🇭🇪🇨🇰🇅🇼🇴🇷🇰🇪🇷🇸🇅🇱🇴🇬🇸🇅🇫🇴🇷🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇸🇪🇨🇹🇮🇴🇳🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇼🇒🇗🇙🇕🇅🇱🇬🇟🇼🇒🇫🇺🇱🇱🇅🇵🇾🇒🇖🇕🇅🇸🇲🇟🇵🇾🇒🇙🇅🇸🇲🇟🇵🇽🇒🇝🇅🇲🇽🇒🇦🇺🇹🇴🇅🇹🇪🇽🇹🇒🇨🇪🇳🇹🇪🇷🇅🇸🇲🇟🇹🇪🇽🇹🇒🇱🇪🇫🇹🇅🇧🇴🇷🇩🇪🇷🇒🇸🇴🇱🇮🇩🇅🇧🇴🇷🇩🇪🇷🇒🇕🇅🇧🇴🇷🇩🇪🇷🇒🇹🇅🇧🇴🇷🇩🇪🇷🇒🇬🇷🇦🇾🇒🇘🇕🇕🇇🇣🆯🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇹🇪🇽🇹🇒🇖🇘🇇🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇡🇸🇹🇷🇴🇳🇬🇅🇨🇱🇦🇸🇸🇢🇇🇫🇴🇳🇹🇒🇸🇪🇲🇮🇧🇴🇱🇩🇇🇣🇞🇜🇜🇧🇜🇛🇘🇘🇖🇫🇦🇗🇝🇕🇛🇪🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇖🇘🇚🇓🇖🇖🇞🇓🇘🇝🇓🇘🇙🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇡🇸🇵🇦🇳🇣🇵🇪🇷🇫🇴🇷🇲🇦🇳🇨🇪🇅🇋🇦🇲🇵🇠🇅🇸🇪🇨🇺🇷🇮🇹🇾🇅🇧🇾🇡🇔🇸🇵🇦🇳🇣🇅🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇅🇒🇒🇣🆯🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-        <div id="cf-error-details" class="cf-error-details-wrapper">
-            <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 977b76331fa2806e &bull; 2025-08-31 09:22:08 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-            </div><!-- /.header -->
-    
-            <section></section><!-- spacer -->
-    
-            <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
-                    <div class="cf-column">
-                        <h2 data-translate="what_happened">What happened?</h2>
-                            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-                    </div>
-                    
-                    <div class="cf-column">
-                        <h2 data-translate="what_can_i_do">What can I do?</h2>
-                            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
-    
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b76331fa2806e</strong></span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-        Your IP:
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">135.119.38.34</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
-      </span>
-      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-      
-    </p>
-    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-  </div><!-- /.error-footer -->
-
-        </div><!-- /#cf-error-details -->
-    </div><!-- /#cf-wrapper -->
-
-     <script>
-    window._cf_translation = {};
-    
-    
-  </script> 
-</body>
-</html>_6481_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.191.81:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6482_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.191.81:3090?mode=gun&security=reality&encryption=none&authority=V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6483_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.191.81:3090?mode=gun&security=reality&encryption=none&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇩🇪DE_6484_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.107.191.81:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6485_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.99.229.234:2080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=wK_5qjYXyOhnpU4S8DpZSqRpq5U4IpdNWYrHxCL2m2M&fp=chrome&sni=journalofbigdata.springeropen.com&sid=77c5aa0a2b&spx=/#🇩🇪DE_6486_@Surfboardv2ray
-vless://Telegram--SRCVPN--@91.99.229.234:2090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=wK_5qjYXyOhnpU4S8DpZSqRpq5U4IpdNWYrHxCL2m2M&fp=chrome&sni=journalofbigdata.springeropen.com&sid=77c5aa0a2b&spx=/#🇩🇪DE_6487_@Surfboardv2ray
-vless://Telegram--SRCVPN-@88.99.87.227:2090?type=grpc&serviceName=32135vless&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM&fp=chrome&sni=journalofbigdata.springeropen.com&sid=aa0dd5ba&spx=/#🇩🇪DE_6488_@Surfboardv2ray
-vless://Telegram--SRCVPN-@91.107.129.66:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6489_@Surfboardv2ray
-vless://Telegram--SRCVPN-@91.107.129.66:3090?mode=gun&security=reality&encryption=none&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&spx=/&type=grpc&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇭🇪🇦🇩🇣🆯🇡🇹🇮🇹🇱🇪🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🆯🇡🇔🇭🇪🇦🇩🇣🆯🇡🇧🇴🇩🇾🇣🆯🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🇣🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🇇🇣🇪🇷🇷🇴🇷🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇨🇴🇩🇪🇇🇣🇖🇖🇕🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇲🇦🇱🇱🇅🇨🇱🇦🇸🇸🇢🇇🇭🇪🇦🇩🇮🇳🇬🇒🇷🇦🇾🇒🇮🇩🇇🇣🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇜🇧🇜🇛🇘🇜🇫🇪🇚🇜🇪🇜🇞🇪🇅🇋🇧🇺🇱🇱🇠🇅🇗🇕🇗🇚🇒🇕🇝🇒🇘🇖🇅🇕🇞🇟🇗🇗🇟🇕🇞🇅🇺🇹🇨🇡🇔🇸🇲🇦🇱🇱🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🈄🇩🇪🇸🇨🇇🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇭🇪🇦🇩🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇸🇪🇨🇹🇮🇴🇳🇣🇡🇔🇸🇪🇨🇹🇮🇴🇳🇣🇡🇆🇒🇒🇅🇸🇵🇦🇨🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇸🇅🇹🇼🇴🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇭🇦🇵🇵🇪🇳🇪🇩🇇🇣🇼🇭🇦🇹🇅🇭🇦🇵🇵🇪🇳🇪🇩🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇾🇴🇺🇌🇻🇪🇅🇷🇪🇶🇺🇪🇸🇹🇪🇩🇅🇦🇅🇵🇦🇬🇪🇅🇴🇳🇅🇦🇅🇼🇪🇧🇸🇮🇹🇪🇅🇍🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇎🇅🇹🇭🇦🇹🇅🇮🇸🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇅🇳🇪🇹🇼🇴🇷🇰🇓🇅🇦🇳🇅🇺🇳🇰🇳🇴🇼🇳🇅🇪🇷🇷🇴🇷🇅🇴🇨🇨🇺🇷🇷🇪🇩🇅🇼🇭🇮🇱🇪🇅🇷🇪🇳🇩🇪🇷🇮🇳🇬🇅🇹🇭🇪🇅🇵🇦🇬🇪🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇨🇦🇳🈄🇮🈄🇩🇴🇇🇣🇼🇭🇦🇹🇅🇨🇦🇳🇅🇮🇅🇩🇴🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇡🇸🇹🇷🇴🇳🇬🇣🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇟🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇧🇷🇅🇔🇣🇷🇪🇫🇪🇷🇅🇹🇴🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇴🇧🇸🇪🇷🇻🇦🇧🇮🇱🇮🇹🇾🇔🇪🇷🇷🇴🇷🇸🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇼🇴🇷🇰🇪🇷🇸🇅🇒🇅🇪🇷🇷🇴🇷🇸🇅🇦🇳🇩🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇸🇡🇔🇦🇣🇅🇦🇳🇩🇅🇨🇭🇪🇨🇰🇅🇼🇴🇷🇰🇪🇷🇸🇅🇱🇴🇬🇸🇅🇫🇴🇷🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇸🇪🇨🇹🇮🇴🇳🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇼🇒🇗🇙🇕🇅🇱🇬🇟🇼🇒🇫🇺🇱🇱🇅🇵🇾🇒🇖🇕🇅🇸🇲🇟🇵🇾🇒🇙🇅🇸🇲🇟🇵🇽🇒🇝🇅🇲🇽🇒🇦🇺🇹🇴🇅🇹🇪🇽🇹🇒🇨🇪🇳🇹🇪🇷🇅🇸🇲🇟🇹🇪🇽🇹🇒🇱🇪🇫🇹🇅🇧🇴🇷🇩🇪🇷🇒🇸🇴🇱🇮🇩🇅🇧🇴🇷🇩🇪🇷🇒🇕🇅🇧🇴🇷🇩🇪🇷🇒🇹🇅🇧🇴🇷🇩🇪🇷🇒🇬🇷🇦🇾🇒🇘🇕🇕🇇🇣🆯🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇹🇪🇽🇹🇒🇖🇘🇇🇣🆯🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇡🇸🇹🇷🇴🇳🇬🇅🇨🇱🇦🇸🇸🇢🇇🇫🇴🇳🇹🇒🇸🇪🇲🇮🇧🇴🇱🇩🇇🇣🇞🇜🇜🇧🇜🇛🇘🇜🇫🇪🇚🇜🇪🇜🇞🇪🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🆯🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇖🇘🇚🇓🇖🇖🇞🇓🇘🇝🇓🇘🇙🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇡🇸🇵🇦🇳🇣🇵🇪🇷🇫🇴🇷🇲🇦🇳🇨🇪🇅🇋🇦🇲🇵🇠🇅🇸🇪🇨🇺🇷🇮🇹🇾🇅🇧🇾🇡🇔🇸🇵🇦🇳🇣🇅🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇵🇣🆯🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🆯🆯🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇅🇒🇒🇣🆯🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🆯🇅🇅🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🆯🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣🆯<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-
-</head>
-<body>
-  <div id="cf-wrapper">
-    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-    <div id="cf-error-details" class="cf-error-details-wrapper">
-      <div class="cf-wrapper cf-header cf-error-overview">
-        <h1>
-          <span class="cf-error-type" data-translate="error">Error</span>
-          <span class="cf-error-code">1101</span>
-          <small class="heading-ray-id">Ray ID: 977b7637fe57e79e &bull; 2025-08-31 09:22:09 UTC</small>
-        </h1>
-        <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-      </div><!-- /.header -->
-
-      <section></section><!-- spacer -->
-
-      <div class="cf-section cf-wrapper">
-        <div class="cf-columns two">
-          <div class="cf-column">
-            <h2 data-translate="what_happened">What happened?</h2>
-            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-          </div>
-
-          
-          <div class="cf-column">
-            <h2 data-translate="what_can_i_do">What can I do?</h2>
-            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-          </div>
-          
-        </div>
-      </div><!-- /.section -->
-
-      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-  <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b7637fe57e79e</strong></span>
-    <span class="cf-footer-separator sm:hidden">&bull;</span>
-    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-      Your IP:
-      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-      <span class="hidden" id="cf-footer-ip">135.119.38.34</span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-    </span>
-    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-    
-  </p>
-  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
 </div><!-- /.error-footer -->
+         </div>
+      </div>
 
-
-    </div><!-- /#cf-error-details -->
-  </div><!-- /#cf-wrapper -->
-
-  <script>
-  window._cf_translation = {};
-  
-  
-</script>
-
-</body>
-</html>
-_6490_@Surfboardv2ray
-vless://Telegram--SRCVPN-@91.107.129.66:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇭🇪🇦🇩🇣🆯🇡🇹🇮🇹🇱🇪🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇡🇔🇭🇪🇦🇩🇣🆯🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🇣🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🇇🇣🇪🇷🇷🇴🇷🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇨🇴🇩🇪🇇🇣🇖🇖🇕🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇲🇦🇱🇱🇅🇨🇱🇦🇸🇸🇢🇇🇭🇪🇦🇩🇮🇳🇬🇒🇷🇦🇾🇒🇮🇩🇇🇣🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇜🇧🇜🇛🇘🇝🇧🇝🇗🇖🇗🇨🇧🇫🇅🇋🇧🇺🇱🇱🇠🇅🇗🇕🇗🇚🇒🇕🇝🇒🇘🇖🇅🇕🇞🇟🇗🇗🇟🇕🇞🇅🇺🇹🇨🇡🇔🇸🇲🇦🇱🇱🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🈄🇩🇪🇸🇨🇇🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇭🇪🇦🇩🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇪🇨🇹🇮🇴🇳🇣🇡🇔🇸🇪🇨🇹🇮🇴🇳🇣🇡🇆🇒🇒🇅🇸🇵🇦🇨🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇸🇅🇹🇼🇴🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇭🇦🇵🇵🇪🇳🇪🇩🇇🇣🇼🇭🇦🇹🇅🇭🇦🇵🇵🇪🇳🇪🇩🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇾🇴🇺🇌🇻🇪🇅🇷🇪🇶🇺🇪🇸🇹🇪🇩🇅🇦🇅🇵🇦🇬🇪🇅🇴🇳🇅🇦🇅🇼🇪🇧🇸🇮🇹🇪🇅🇍🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇎🇅🇹🇭🇦🇹🇅🇮🇸🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇖🇕🇕🇽🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇅🇳🇪🇹🇼🇴🇷🇰🇓🇅🇦🇳🇅🇺🇳🇰🇳🇴🇼🇳🇅🇪🇷🇷🇴🇷🇅🇴🇨🇨🇺🇷🇷🇪🇩🇅🇼🇭🇮🇱🇪🇅🇷🇪🇳🇩🇪🇷🇮🇳🇬🇅🇹🇭🇪🇅🇵🇦🇬🇪🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇨🇦🇳🈄🇮🈄🇩🇴🇇🇣🇼🇭🇦🇹🇅🇨🇦🇳🇅🇮🇅🇩🇴🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇡🇸🇹🇷🇴🇳🇬🇣🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇟🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇧🇷🇅🇔🇣🇷🇪🇫🇪🇷🇅🇹🇴🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇴🇧🇸🇪🇷🇻🇦🇧🇮🇱🇮🇹🇾🇔🇪🇷🇷🇴🇷🇸🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇼🇴🇷🇰🇪🇷🇸🇅🇒🇅🇪🇷🇷🇴🇷🇸🇅🇦🇳🇩🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇸🇡🇔🇦🇣🇅🇦🇳🇩🇅🇨🇭🇪🇨🇰🇅🇼🇴🇷🇰🇪🇷🇸🇅🇱🇴🇬🇸🇅🇫🇴🇷🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇸🇪🇨🇹🇮🇴🇳🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇼🇒🇗🇙🇕🇅🇱🇬🇟🇼🇒🇫🇺🇱🇱🇅🇵🇾🇒🇖🇕🇅🇸🇲🇟🇵🇾🇒🇙🇅🇸🇲🇟🇵🇽🇒🇝🇅🇲🇽🇒🇦🇺🇹🇴🇅🇹🇪🇽🇹🇒🇨🇪🇳🇹🇪🇷🇅🇸🇲🇟🇹🇪🇽🇹🇒🇱🇪🇫🇹🇅🇧🇴🇷🇩🇪🇷🇒🇸🇴🇱🇮🇩🇅🇧🇴🇷🇩🇪🇷🇒🇕🇅🇧🇴🇷🇩🇪🇷🇒🇹🇅🇧🇴🇷🇩🇪🇷🇒🇬🇷🇦🇾🇒🇘🇕🇕🇇🇣🆯🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇹🇪🇽🇹🇒🇖🇘🇇🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇡🇸🇹🇷🇴🇳🇬🇅🇨🇱🇦🇸🇸🇢🇇🇫🇴🇳🇹🇒🇸🇪🇲🇮🇧🇴🇱🇩🇇🇣🇞🇜🇜🇧🇜🇛🇘🇝🇧🇝🇗🇖🇗🇨🇧🇫🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇖🇘🇚🇓🇖🇖🇞🇓🇘🇝🇓🇘🇙🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇡🇸🇵🇦🇳🇣🇵🇪🇷🇫🇴🇷🇲🇦🇳🇨🇪🇅🇋🇦🇲🇵🇠🇅🇸🇪🇨🇺🇷🇮🇹🇾🇅🇧🇾🇡🇔🇸🇵🇦🇳🇣🇅🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇅🇒🇒🇣🆯🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
-<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
-<style>body{margin:0;padding:0}</style>
-
-
-<!--[if gte IE 10]><!-->
-<script>
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-        <div id="cf-error-details" class="cf-error-details-wrapper">
-            <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 977b7638b8212cbf &bull; 2025-08-31 09:22:09 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-            </div><!-- /.header -->
-    
-            <section></section><!-- spacer -->
-    
-            <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
-                    <div class="cf-column">
-                        <h2 data-translate="what_happened">What happened?</h2>
-                            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-                    </div>
-                    
-                    <div class="cf-column">
-                        <h2 data-translate="what_can_i_do">What can I do?</h2>
-                            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
-    
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b7638b8212cbf</strong></span>
-      <span class="cf-footer-separator sm:hidden">&bull;</span>
-      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
-        Your IP:
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-        <span class="hidden" id="cf-footer-ip">135.119.38.34</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
-      </span>
-      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
-      
-    </p>
-    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
-  </div><!-- /.error-footer -->
-
-        </div><!-- /#cf-error-details -->
-    </div><!-- /#cf-wrapper -->
-
-     <script>
+       <script>
     window._cf_translation = {};
     
     
   </script> 
-</body>
-</html>_6491_@Surfboardv2ray
-vless://Telegram--SRCVPN@88.99.87.227:2080?type=grpc&serviceName=32135vless&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM&fp=chrome&sni=journalofbigdata.springeropen.com&sid=aa0dd5ba&spx=/#🇩🇪DE_6492_@Surfboardv2ray
-vless://Telegram--SRCVPN@88.99.87.227:2090?type=grpc&serviceName=32135vless&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM&fp=chrome&sni=journalofbigdata.springeropen.com&sid=aa0dd5ba&spx=/#🇩🇪DE_6493_@Surfboardv2ray
-vless://Telegram--SRCVPN@91.107.129.66:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6494_@Surfboardv2ray
-vless://Telegram--SRCVPN@91.107.129.66:3090?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=ezDK7fd9ieu1_0tDnmurxVheIpDpXofzBRovR8nCtTI&fp=chrome&sni=journalofbigdata.springeropen.com&sid=3078f8f691b6b4&spx=/#🇩🇪DE_6495_@Surfboardv2ray
-vless://Telegram--SRCVPN@91.107.133.198:3080?type=grpc&serviceName=&authority=-@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN&security=reality&pbk=IBTQswLX4U6WI_tl305r8FKwhZoCka5nW0_idDXLUlo&fp=chrome&sni=journalofbigdata.springeropen.com&sid=eb91f5c0&spx=/#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇭🇪🇦🇩🇣🆯🇡🇹🇮🇹🇱🇪🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇡🇔🇭🇪🇦🇩🇣🆯🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🇣🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🇇🇣🇪🇷🇷🇴🇷🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇨🇴🇩🇪🇇🇣🇖🇖🇕🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇲🇦🇱🇱🇅🇨🇱🇦🇸🇸🇢🇇🇭🇪🇦🇩🇮🇳🇬🇒🇷🇦🇾🇒🇮🇩🇇🇣🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇜🇧🇜🇛🇘🇧🇛🇧🇗🇫🇗🇝🇪🇗🇅🇋🇧🇺🇱🇱🇠🇅🇗🇕🇗🇚🇒🇕🇝🇒🇘🇖🇅🇕🇞🇟🇗🇗🇟🇕🇞🇅🇺🇹🇨🇡🇔🇸🇲🇦🇱🇱🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇷🇷🇴🇷🈄🇩🇪🇸🇨🇇🇣🇼🇴🇷🇰🇪🇷🇅🇹🇭🇷🇪🇼🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇭🇪🇦🇩🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇪🇨🇹🇮🇴🇳🇣🇡🇔🇸🇪🇨🇹🇮🇴🇳🇣🇡🇆🇒🇒🇅🇸🇵🇦🇨🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇸🇅🇹🇼🇴🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇭🇦🇵🇵🇪🇳🇪🇩🇇🇣🇼🇭🇦🇹🇅🇭🇦🇵🇵🇪🇳🇪🇩🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇾🇴🇺🇌🇻🇪🇅🇷🇪🇶🇺🇪🇸🇹🇪🇩🇅🇦🇅🇵🇦🇬🇪🇅🇴🇳🇅🇦🇅🇼🇪🇧🇸🇮🇹🇪🇅🇍🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇎🇅🇹🇭🇦🇹🇅🇮🇸🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇖🇕🇕🇽🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇅🇳🇪🇹🇼🇴🇷🇰🇓🇅🇦🇳🇅🇺🇳🇰🇳🇴🇼🇳🇅🇪🇷🇷🇴🇷🇅🇴🇨🇨🇺🇷🇷🇪🇩🇅🇼🇭🇮🇱🇪🇅🇷🇪🇳🇩🇪🇷🇮🇳🇬🇅🇹🇭🇪🇅🇵🇦🇬🇪🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇨🇴🇱🇺🇲🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇼🇭🇦🇹🈄🇨🇦🇳🈄🇮🈄🇩🇴🇇🇣🇼🇭🇦🇹🇅🇨🇦🇳🇅🇮🇅🇩🇴🇤🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🇡🇸🇹🇷🇴🇳🇬🇣🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇟🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇧🇷🇅🇔🇣🇷🇪🇫🇪🇷🇅🇹🇴🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇴🇧🇸🇪🇷🇻🇦🇧🇮🇱🇮🇹🇾🇔🇪🇷🇷🇴🇷🇸🇔🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇼🇴🇷🇰🇪🇷🇸🇅🇒🇅🇪🇷🇷🇴🇷🇸🇅🇦🇳🇩🇅🇪🇽🇨🇪🇵🇹🇮🇴🇳🇸🇡🇔🇦🇣🇅🇦🇳🇩🇅🇨🇭🇪🇨🇰🇅🇼🇴🇷🇰🇪🇷🇸🇅🇱🇴🇬🇸🇅🇫🇴🇷🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇓🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇸🇪🇨🇹🇮🇴🇳🇅🇒🇒🇣🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇼🇒🇗🇙🇕🇅🇱🇬🇟🇼🇒🇫🇺🇱🇱🇅🇵🇾🇒🇖🇕🇅🇸🇲🇟🇵🇾🇒🇙🇅🇸🇲🇟🇵🇽🇒🇝🇅🇲🇽🇒🇦🇺🇹🇴🇅🇹🇪🇽🇹🇒🇨🇪🇳🇹🇪🇷🇅🇸🇲🇟🇹🇪🇽🇹🇒🇱🇪🇫🇹🇅🇧🇴🇷🇩🇪🇷🇒🇸🇴🇱🇮🇩🇅🇧🇴🇷🇩🇪🇷🇒🇕🇅🇧🇴🇷🇩🇪🇷🇒🇹🇅🇧🇴🇷🇩🇪🇷🇒🇬🇷🇦🇾🇒🇘🇕🇕🇇🇣🆯🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇹🇪🇽🇹🇒🇖🇘🇇🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇡🇸🇹🇷🇴🇳🇬🇅🇨🇱🇦🇸🇸🇢🇇🇫🇴🇳🇹🇒🇸🇪🇲🇮🇧🇴🇱🇩🇇🇣🇞🇜🇜🇧🇜🇛🇘🇧🇛🇧🇗🇫🇗🇝🇪🇗🇡🇔🇸🇹🇷🇴🇳🇬🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇖🇘🇚🇓🇖🇖🇞🇓🇘🇝🇓🇘🇙🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇅🇸🇲🇟🇭🇮🇩🇩🇪🇳🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇸🇲🇟🇧🇱🇴🇨🇰🇅🇸🇲🇟🇲🇧🇒🇖🇇🇣🇡🇸🇵🇦🇳🇣🇵🇪🇷🇫🇴🇷🇲🇦🇳🇨🇪🇅🇋🇦🇲🇵🇠🇅🇸🇪🇨🇺🇷🇮🇹🇾🇅🇧🇾🇡🇔🇸🇵🇦🇳🇣🇅🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇼🇼🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇚🇽🇽🇒🇪🇷🇷🇴🇷🇒🇱🇦🇳🇩🇮🇳🇬🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇅🇒🇒🇣🆯🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
+   </body>
+</html>_9404_@Surfboardv2ray
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.9.172:8880?encryption=none&security=none&type=grpc#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🆯🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🆯🇅🇅🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇅🇅🇅🇡🇭🇪🇦🇩🇣🆯🇅🇅🇅🇅🇅🇅🇡🇹🇮🇹🇱🇪🇣🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇅🇅🇅🇅🇅🇅🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇸🇹🇾🇱🇪🇅🇹🇾🇵🇪🇢🇇🇹🇪🇽🇹🇔🇨🇸🇸🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇧🇴🇩🇾🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇷🇬🇮🇳🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇦🇩🇩🇮🇳🇬🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇴🇳🇹🇒🇫🇦🇲🇮🇱🇾🇟🇅🇒🇦🇵🇵🇱🇪🇒🇸🇾🇸🇹🇪🇲🇑🇅🇧🇱🇮🇳🇰🇲🇦🇨🇸🇾🇸🇹🇪🇲🇫🇴🇳🇹🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇇🇑🇅🇷🇴🇧🇴🇹🇴🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇪🇱🇻🇪🇹🇮🇨🇦🇑🇅🇦🇷🇮🇦🇱🇑🇅🇸🇦🇳🇸🇒🇸🇪🇷🇮🇫🇑🇅🇇🇦🇵🇵🇱🇪🇅🇨🇴🇱🇴🇷🇅🇪🇲🇴🇯🇮🇇🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇪🇲🇴🇯🇮🇇🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇸🇾🇲🇧🇴🇱🇇🇅🇆🇮🇲🇵🇴🇷🇹🇦🇳🇹🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇓🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇽🇒🇼🇮🇩🇹🇭🇟🇅🇛🇕🇕🇵🇽🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇾🇱🇪🇣🆯🇅🇅🇅🇡🇔🇭🇪🇦🇩🇣🆯🇅🇅🇅🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇡🇔🇸🇵🇦🇳🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇣🇪🇷🇷🇴🇷🇅🇖🇕🇗🇜🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇸🇹🇾🇱🇪🇢🇇🇼🇮🇩🇹🇭🇟🇖🇛🇵🇽🇠🇅🇩🇮🇸🇵🇱🇦🇾🇟🇮🇳🇱🇮🇳🇪🇒🇧🇱🇴🇨🇰🇠🇅🇻🇪🇷🇹🇮🇨🇦🇱🇒🇦🇱🇮🇬🇳🇟🇹🇪🇽🇹🇒🇹🇴🇵🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇻🇬🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇮🇱🇱🇢🇇🇈🇧🇕🇘🇘🇙🇕🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇽🇲🇱🇳🇸🇢🇇🇭🇹🇹🇵🇟🇔🇔🇼🇼🇼🇓🇼🇘🇓🇴🇷🇬🇔🇗🇕🇕🇕🇔🇸🇻🇬🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇻🇮🇪🇼🇧🇴🇽🇢🇇🇕🇅🇕🇅🇖🇛🇅🇖🇛🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇦🇹🇭🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇢🇇🇲🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇑🇝🇓🇘🇑🇖🇓🇙🇙🇘🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇒🇓🇛🇕🇞🇑🇕🇱🇓🇘🇗🇝🇑🇖🇙🇓🇗🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇓🇘🇓🇚🇗🇜🇭🇖🇚🇓🇘🇛🇝🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇿🇲🇝🇓🇜🇙🇘🇑🇖🇗🇓🇞🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇓🇗🇗🇖🇭🇜🇓🇙🇜🇝🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇒🇓🇗🇗🇖🇻🇖🇖🇓🇝🇛🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇒🇓🇗🇗🇖🇭🇝🇓🇚🇗🇗🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇓🇗🇗🇖🇿🇲🇒🇓🇕🇗🇚🇒🇗🇓🇙🇗🇗🇭🇜🇓🇗🇝🇗🇱🇜🇓🇗🇚🇜🇑🇛🇓🇕🇕🇚🇭🇝🇓🇜🇙🇘🇿🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇔🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇻🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇅🇨🇦🇳🇳🇴🇹🇅🇦🇨🇨🇪🇸🇸🇅🇹🇭🇮🇸🇅🇸🇮🇹🇪🇅🇧🇪🇨🇦🇺🇸🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇭🇦🇸🇅🇷🇪🇦🇨🇭🇪🇩🇅🇹🇭🇪🇮🇷🇅🇵🇱🇦🇳🇅🇱🇮🇲🇮🇹🇸🇓🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇅🇴🇳🇨🇪🇅🇹🇷🇦🇫🇫🇮🇨🇅🇭🇦🇸🇅🇬🇴🇳🇪🇅🇩🇴🇼🇳🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇑🇅🇵🇷🇪🇻🇪🇳🇹🇅🇹🇭🇮🇸🇅🇫🇷🇴🇲🇅🇭🇦🇵🇵🇪🇳🇮🇳🇬🇅🇦🇬🇦🇮🇳🇅🇧🇾🇅🇺🇵🇬🇷🇦🇩🇮🇳🇬🇅🇾🇴🇺🇷🇅🇵🇱🇦🇳🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇦🇸🇭🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇤🇦🇨🇨🇴🇺🇳🇹🇢🇼🇴🇷🇰🇪🇷🇸🇔🇵🇱🇦🇳🇸🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇅🇩🇦🇸🇭🇧🇴🇦🇷🇩🇡🇔🇦🇣🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇦🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇦🇧🇴🇺🇹🇔🇱🇮🇲🇮🇹🇸🇔🇈🇳🇺🇲🇧🇪🇷🇒🇴🇫🇒🇷🇪🇶🇺🇪🇸🇹🇸🇒🇱🇮🇲🇮🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇱🇪🇦🇷🇳🇅🇲🇴🇷🇪🇅🇦🇧🇴🇺🇹🇅🇹🇭🇮🇸🇅🇮🇸🇸🇺🇪🇅𡌷🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇦🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇝🇚🇦🇙🇝🇞🇕🇫🇩🇝🇗🇩🇙🇚🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇗🇕🇗🇚🇒🇕🇞🇒🇕🇖🇅🇖🇚🇟🇕🇖🇟🇗🇙🇅🇺🇹🇨🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇚🇗🇓🇖🇜🇘🇓🇖🇝🇖🇓🇗🇘🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇡🇸🇵🇦🇳🇣🇷🇺🇳🇸🇅🇴🇳🇅🇡🇔🇸🇵🇦🇳🇣🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇴🇷🇰🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇫🇴🇴🇹🇪🇷🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇅🇅🇅🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>Worker threw exception | ip-api.colaho6124.workers.dev | Cloudflare</title>
-<meta charset="UTF-8" />
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+   <!--<![endif]-->
+   <head>
+      <title>This website has been temporarily rate limited | ip-api.colaho6124.workers.dev | Cloudflare</title>
+      <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <meta name="robots" content="noindex, nofollow" />
@@ -569,37 +111,495 @@ vless://Telegram--SRCVPN@91.107.133.198:3080?type=grpc&serviceName=&authority=-@
 </script>
 <!--<![endif]-->
 
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-        <div id="cf-error-details" class="cf-error-details-wrapper">
+      <style type="text/css">
+            body {
+               margin: 0;
+               padding: 0;
+            }
+
+            #cf-wrapper {
+               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol" !important;
+            }
+            .cf-error-description {
+               max-width: 600px;
+            }
+      </style>
+   </head>
+   <body>
+      <div id="cf-wrapper">
+         <div
+            id="cookie-alert"
+            class="cf-alert cf-alert-error cf-cookie-error"
+            data-translate="enable_cookies"
+         >
+            Please enable cookies.
+         </div>
+         <div id="cf-error-details" class="cf-error-details-wrapper">
             <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 977b763b6b2f28e2 &bull; 2025-08-31 09:22:09 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
-            </div><!-- /.header -->
-    
-            <section></section><!-- spacer -->
-    
+               <h1>
+               <span class="cf-error-type" data-translate="please check back later"
+                  >Please check back later</span
+               >
+               </h1>
+               <h2 class="cf-subheadline">Error 1027</h2>
+            </div>
+
             <div class="cf-section cf-wrapper">
-                <div class="cf-columns two">
-                    <div class="cf-column">
-                        <h2 data-translate="what_happened">What happened?</h2>
-                            <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
-                    </div>
-                    
-                    <div class="cf-column">
-                        <h2 data-translate="what_can_i_do">What can I do?</h2>
-                            <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
+               <p>
+               <span style="width:16px; display:inline-block; vertical-align:text-top">
+                  <svg
+                     fill="#b03340"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                     d="M15.672,14.2,8.3,1.443a.352.352,0,0,0-.609,0L.328,14.2a.352.352,0,0,0,.3.527H15.368A.352.352,0,0,0,15.672,14.2ZM8.743,12.9a.221.221,0,0,1-.221.221H7.478a.221.221,0,0,1-.221-.221V11.86a.221.221,0,0,1,.221-.221H8.522a.221.221,0,0,1,.221.221Zm-.025-2.422H7.282L7.257,6.005H8.743Z"
+                     />
+                  </svg>
+               </span>
+               <strong>
+                    This website has been temporarily rate limited
+               </strong>
+               </p>
+               <p class="cf-error-description">
+                   You cannot access this site because the owner has reached their plan limits. Check back later once traffic has gone down.
+               </p>
+               
+               <p class="cf-error-description">
+                   If you are owner of this website, prevent this from happening again by upgrading your plan on the <a href="https://dash.cloudflare.com/?account=workers/plans" target="_blank">Cloudflare Workers dashboard</a>.
+               </p>
+               
+               
+               <p>
+               <a
+                  href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  Learn more about this issue →
+               </a>
+               </p>
+               
+            </div>
+
+            <div class="cf-error-footer cf-wrapper">
+    <p>
+      <span class="cf-footer-item">Cloudflare Ray ID: 9785a4890fd82d45</span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item">2025-09-01 15:01:24 UTC</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden">
+        <span class="cf-footer-separator">&bull;</span>
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">52.173.181.23</span>
+      </span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item"><span>Runs on </span><a rel="noopener noreferrer" href="https://workers.cloudflare.com?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare Workers</a></span>
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+         </div>
+      </div>
+
+       <script>
+    window._cf_translation = {};
     
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
-      <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">977b763b6b2f28e2</strong></span>
+    
+  </script> 
+   </body>
+</html>_9405_@Surfboardv2ray
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.9.172:8880?mode=gun&security=&encryption=none&type=grpc#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🆯🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🆯🇅🇅🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇅🇅🇅🇡🇭🇪🇦🇩🇣🆯🇅🇅🇅🇅🇅🇅🇡🇹🇮🇹🇱🇪🇣🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇅🇅🇅🇅🇅🇅🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇸🇹🇾🇱🇪🇅🇹🇾🇵🇪🇢🇇🇹🇪🇽🇹🇔🇨🇸🇸🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇧🇴🇩🇾🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇷🇬🇮🇳🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇦🇩🇩🇮🇳🇬🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇴🇳🇹🇒🇫🇦🇲🇮🇱🇾🇟🇅🇒🇦🇵🇵🇱🇪🇒🇸🇾🇸🇹🇪🇲🇑🇅🇧🇱🇮🇳🇰🇲🇦🇨🇸🇾🇸🇹🇪🇲🇫🇴🇳🇹🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇇🇑🇅🇷🇴🇧🇴🇹🇴🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇪🇱🇻🇪🇹🇮🇨🇦🇑🇅🇦🇷🇮🇦🇱🇑🇅🇸🇦🇳🇸🇒🇸🇪🇷🇮🇫🇑🇅🇇🇦🇵🇵🇱🇪🇅🇨🇴🇱🇴🇷🇅🇪🇲🇴🇯🇮🇇🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇪🇲🇴🇯🇮🇇🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇸🇾🇲🇧🇴🇱🇇🇅🇆🇮🇲🇵🇴🇷🇹🇦🇳🇹🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇓🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇽🇒🇼🇮🇩🇹🇭🇟🇅🇛🇕🇕🇵🇽🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇾🇱🇪🇣🆯🇅🇅🇅🇡🇔🇭🇪🇦🇩🇣🆯🇅🇅🇅🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇡🇔🇸🇵🇦🇳🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇣🇪🇷🇷🇴🇷🇅🇖🇕🇗🇜🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇸🇹🇾🇱🇪🇢🇇🇼🇮🇩🇹🇭🇟🇖🇛🇵🇽🇠🇅🇩🇮🇸🇵🇱🇦🇾🇟🇮🇳🇱🇮🇳🇪🇒🇧🇱🇴🇨🇰🇠🇅🇻🇪🇷🇹🇮🇨🇦🇱🇒🇦🇱🇮🇬🇳🇟🇹🇪🇽🇹🇒🇹🇴🇵🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇻🇬🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇮🇱🇱🇢🇇🇈🇧🇕🇘🇘🇙🇕🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇽🇲🇱🇳🇸🇢🇇🇭🇹🇹🇵🇟🇔🇔🇼🇼🇼🇓🇼🇘🇓🇴🇷🇬🇔🇗🇕🇕🇕🇔🇸🇻🇬🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇻🇮🇪🇼🇧🇴🇽🇢🇇🇕🇅🇕🇅🇖🇛🇅🇖🇛🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇦🇹🇭🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇢🇇🇲🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇑🇝🇓🇘🇑🇖🇓🇙🇙🇘🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇒🇓🇛🇕🇞🇑🇕🇱🇓🇘🇗🇝🇑🇖🇙🇓🇗🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇓🇘🇓🇚🇗🇜🇭🇖🇚🇓🇘🇛🇝🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇿🇲🇝🇓🇜🇙🇘🇑🇖🇗🇓🇞🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇓🇗🇗🇖🇭🇜🇓🇙🇜🇝🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇒🇓🇗🇗🇖🇻🇖🇖🇓🇝🇛🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇒🇓🇗🇗🇖🇭🇝🇓🇚🇗🇗🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇓🇗🇗🇖🇿🇲🇒🇓🇕🇗🇚🇒🇗🇓🇙🇗🇗🇭🇜🇓🇗🇝🇗🇱🇜🇓🇗🇚🇜🇑🇛🇓🇕🇕🇚🇭🇝🇓🇜🇙🇘🇿🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇔🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇻🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇅🇨🇦🇳🇳🇴🇹🇅🇦🇨🇨🇪🇸🇸🇅🇹🇭🇮🇸🇅🇸🇮🇹🇪🇅🇧🇪🇨🇦🇺🇸🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇭🇦🇸🇅🇷🇪🇦🇨🇭🇪🇩🇅🇹🇭🇪🇮🇷🇅🇵🇱🇦🇳🇅🇱🇮🇲🇮🇹🇸🇓🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇅🇴🇳🇨🇪🇅🇹🇷🇦🇫🇫🇮🇨🇅🇭🇦🇸🇅🇬🇴🇳🇪🇅🇩🇴🇼🇳🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇑🇅🇵🇷🇪🇻🇪🇳🇹🇅🇹🇭🇮🇸🇅🇫🇷🇴🇲🇅🇭🇦🇵🇵🇪🇳🇮🇳🇬🇅🇦🇬🇦🇮🇳🇅🇧🇾🇅🇺🇵🇬🇷🇦🇩🇮🇳🇬🇅🇾🇴🇺🇷🇅🇵🇱🇦🇳🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇦🇸🇭🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇤🇦🇨🇨🇴🇺🇳🇹🇢🇼🇴🇷🇰🇪🇷🇸🇔🇵🇱🇦🇳🇸🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇅🇩🇦🇸🇭🇧🇴🇦🇷🇩🇡🇔🇦🇣🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇦🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇦🇧🇴🇺🇹🇔🇱🇮🇲🇮🇹🇸🇔🇈🇳🇺🇲🇧🇪🇷🇒🇴🇫🇒🇷🇪🇶🇺🇪🇸🇹🇸🇒🇱🇮🇲🇮🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇱🇪🇦🇷🇳🇅🇲🇴🇷🇪🇅🇦🇧🇴🇺🇹🇅🇹🇭🇮🇸🇅🇮🇸🇸🇺🇪🇅𡌷🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇦🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇝🇚🇦🇙🇝🇞🇞🇨🇖🇫🇛🇧🇞🇖🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇗🇕🇗🇚🇒🇕🇞🇒🇕🇖🇅🇖🇚🇟🇕🇖🇟🇗🇙🇅🇺🇹🇨🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇚🇗🇓🇖🇜🇘🇓🇖🇝🇖🇓🇗🇘🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇡🇸🇵🇦🇳🇣🇷🇺🇳🇸🇅🇴🇳🇅🇡🇔🇸🇵🇦🇳🇣🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇴🇷🇰🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇫🇴🇴🇹🇪🇷🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇅🇅🇅🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+   <!--<![endif]-->
+   <head>
+      <title>This website has been temporarily rate limited | ip-api.colaho6124.workers.dev | Cloudflare</title>
+      <meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+      <style type="text/css">
+            body {
+               margin: 0;
+               padding: 0;
+            }
+
+            #cf-wrapper {
+               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol" !important;
+            }
+            .cf-error-description {
+               max-width: 600px;
+            }
+      </style>
+   </head>
+   <body>
+      <div id="cf-wrapper">
+         <div
+            id="cookie-alert"
+            class="cf-alert cf-alert-error cf-cookie-error"
+            data-translate="enable_cookies"
+         >
+            Please enable cookies.
+         </div>
+         <div id="cf-error-details" class="cf-error-details-wrapper">
+            <div class="cf-wrapper cf-header cf-error-overview">
+               <h1>
+               <span class="cf-error-type" data-translate="please check back later"
+                  >Please check back later</span
+               >
+               </h1>
+               <h2 class="cf-subheadline">Error 1027</h2>
+            </div>
+
+            <div class="cf-section cf-wrapper">
+               <p>
+               <span style="width:16px; display:inline-block; vertical-align:text-top">
+                  <svg
+                     fill="#b03340"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                     d="M15.672,14.2,8.3,1.443a.352.352,0,0,0-.609,0L.328,14.2a.352.352,0,0,0,.3.527H15.368A.352.352,0,0,0,15.672,14.2ZM8.743,12.9a.221.221,0,0,1-.221.221H7.478a.221.221,0,0,1-.221-.221V11.86a.221.221,0,0,1,.221-.221H8.522a.221.221,0,0,1,.221.221Zm-.025-2.422H7.282L7.257,6.005H8.743Z"
+                     />
+                  </svg>
+               </span>
+               <strong>
+                    This website has been temporarily rate limited
+               </strong>
+               </p>
+               <p class="cf-error-description">
+                   You cannot access this site because the owner has reached their plan limits. Check back later once traffic has gone down.
+               </p>
+               
+               <p class="cf-error-description">
+                   If you are owner of this website, prevent this from happening again by upgrading your plan on the <a href="https://dash.cloudflare.com/?account=workers/plans" target="_blank">Cloudflare Workers dashboard</a>.
+               </p>
+               
+               
+               <p>
+               <a
+                  href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  Learn more about this issue →
+               </a>
+               </p>
+               
+            </div>
+
+            <div class="cf-error-footer cf-wrapper">
+    <p>
+      <span class="cf-footer-item">Cloudflare Ray ID: 9785a4899c1f6b91</span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item">2025-09-01 15:01:24 UTC</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden">
+        <span class="cf-footer-separator">&bull;</span>
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">52.173.181.23</span>
+      </span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item"><span>Runs on </span><a rel="noopener noreferrer" href="https://workers.cloudflare.com?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare Workers</a></span>
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+         </div>
+      </div>
+
+       <script>
+    window._cf_translation = {};
+    
+    
+  </script> 
+   </body>
+</html>_9406_@Surfboardv2ray
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.9.172:8880?mode=gun&security=none&encryption=none&type=grpc#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🆯🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🆯🇅🇅🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇅🇅🇅🇡🇭🇪🇦🇩🇣🆯🇅🇅🇅🇅🇅🇅🇡🇹🇮🇹🇱🇪🇣🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇅🇅🇅🇅🇅🇅🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇸🇹🇾🇱🇪🇅🇹🇾🇵🇪🇢🇇🇹🇪🇽🇹🇔🇨🇸🇸🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇧🇴🇩🇾🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇷🇬🇮🇳🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇦🇩🇩🇮🇳🇬🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇴🇳🇹🇒🇫🇦🇲🇮🇱🇾🇟🇅🇒🇦🇵🇵🇱🇪🇒🇸🇾🇸🇹🇪🇲🇑🇅🇧🇱🇮🇳🇰🇲🇦🇨🇸🇾🇸🇹🇪🇲🇫🇴🇳🇹🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇇🇑🇅🇷🇴🇧🇴🇹🇴🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇪🇱🇻🇪🇹🇮🇨🇦🇑🇅🇦🇷🇮🇦🇱🇑🇅🇸🇦🇳🇸🇒🇸🇪🇷🇮🇫🇑🇅🇇🇦🇵🇵🇱🇪🇅🇨🇴🇱🇴🇷🇅🇪🇲🇴🇯🇮🇇🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇪🇲🇴🇯🇮🇇🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇸🇾🇲🇧🇴🇱🇇🇅🇆🇮🇲🇵🇴🇷🇹🇦🇳🇹🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇓🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇽🇒🇼🇮🇩🇹🇭🇟🇅🇛🇕🇕🇵🇽🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇾🇱🇪🇣🆯🇅🇅🇅🇡🇔🇭🇪🇦🇩🇣🆯🇅🇅🇅🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇡🇔🇸🇵🇦🇳🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇣🇪🇷🇷🇴🇷🇅🇖🇕🇗🇜🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇸🇹🇾🇱🇪🇢🇇🇼🇮🇩🇹🇭🇟🇖🇛🇵🇽🇠🇅🇩🇮🇸🇵🇱🇦🇾🇟🇮🇳🇱🇮🇳🇪🇒🇧🇱🇴🇨🇰🇠🇅🇻🇪🇷🇹🇮🇨🇦🇱🇒🇦🇱🇮🇬🇳🇟🇹🇪🇽🇹🇒🇹🇴🇵🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇻🇬🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇮🇱🇱🇢🇇🇈🇧🇕🇘🇘🇙🇕🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇽🇲🇱🇳🇸🇢🇇🇭🇹🇹🇵🇟🇔🇔🇼🇼🇼🇓🇼🇘🇓🇴🇷🇬🇔🇗🇕🇕🇕🇔🇸🇻🇬🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇻🇮🇪🇼🇧🇴🇽🇢🇇🇕🇅🇕🇅🇖🇛🇅🇖🇛🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇦🇹🇭🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇢🇇🇲🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇑🇝🇓🇘🇑🇖🇓🇙🇙🇘🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇒🇓🇛🇕🇞🇑🇕🇱🇓🇘🇗🇝🇑🇖🇙🇓🇗🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇓🇘🇓🇚🇗🇜🇭🇖🇚🇓🇘🇛🇝🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇿🇲🇝🇓🇜🇙🇘🇑🇖🇗🇓🇞🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇓🇗🇗🇖🇭🇜🇓🇙🇜🇝🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇒🇓🇗🇗🇖🇻🇖🇖🇓🇝🇛🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇒🇓🇗🇗🇖🇭🇝🇓🇚🇗🇗🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇓🇗🇗🇖🇿🇲🇒🇓🇕🇗🇚🇒🇗🇓🇙🇗🇗🇭🇜🇓🇗🇝🇗🇱🇜🇓🇗🇚🇜🇑🇛🇓🇕🇕🇚🇭🇝🇓🇜🇙🇘🇿🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇔🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇻🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇅🇨🇦🇳🇳🇴🇹🇅🇦🇨🇨🇪🇸🇸🇅🇹🇭🇮🇸🇅🇸🇮🇹🇪🇅🇧🇪🇨🇦🇺🇸🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇭🇦🇸🇅🇷🇪🇦🇨🇭🇪🇩🇅🇹🇭🇪🇮🇷🇅🇵🇱🇦🇳🇅🇱🇮🇲🇮🇹🇸🇓🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇅🇴🇳🇨🇪🇅🇹🇷🇦🇫🇫🇮🇨🇅🇭🇦🇸🇅🇬🇴🇳🇪🇅🇩🇴🇼🇳🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇑🇅🇵🇷🇪🇻🇪🇳🇹🇅🇹🇭🇮🇸🇅🇫🇷🇴🇲🇅🇭🇦🇵🇵🇪🇳🇮🇳🇬🇅🇦🇬🇦🇮🇳🇅🇧🇾🇅🇺🇵🇬🇷🇦🇩🇮🇳🇬🇅🇾🇴🇺🇷🇅🇵🇱🇦🇳🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇦🇸🇭🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇤🇦🇨🇨🇴🇺🇳🇹🇢🇼🇴🇷🇰🇪🇷🇸🇔🇵🇱🇦🇳🇸🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇅🇩🇦🇸🇭🇧🇴🇦🇷🇩🇡🇔🇦🇣🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇦🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇦🇧🇴🇺🇹🇔🇱🇮🇲🇮🇹🇸🇔🇈🇳🇺🇲🇧🇪🇷🇒🇴🇫🇒🇷🇪🇶🇺🇪🇸🇹🇸🇒🇱🇮🇲🇮🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇱🇪🇦🇷🇳🇅🇲🇴🇷🇪🇅🇦🇧🇴🇺🇹🇅🇹🇭🇮🇸🇅🇮🇸🇸🇺🇪🇅𡌷🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇦🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇝🇚🇦🇙🇝🇦🇕🇨🇨🇝🇫🇕🇜🇩🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇗🇕🇗🇚🇒🇕🇞🇒🇕🇖🇅🇖🇚🇟🇕🇖🇟🇗🇙🇅🇺🇹🇨🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇚🇗🇓🇖🇜🇘🇓🇖🇝🇖🇓🇗🇘🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇡🇸🇵🇦🇳🇣🇷🇺🇳🇸🇅🇴🇳🇅🇡🇔🇸🇵🇦🇳🇣🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇴🇷🇰🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇫🇴🇴🇹🇪🇷🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇅🇅🇅🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+   <!--<![endif]-->
+   <head>
+      <title>This website has been temporarily rate limited | ip-api.colaho6124.workers.dev | Cloudflare</title>
+      <meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+      <style type="text/css">
+            body {
+               margin: 0;
+               padding: 0;
+            }
+
+            #cf-wrapper {
+               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol" !important;
+            }
+            .cf-error-description {
+               max-width: 600px;
+            }
+      </style>
+   </head>
+   <body>
+      <div id="cf-wrapper">
+         <div
+            id="cookie-alert"
+            class="cf-alert cf-alert-error cf-cookie-error"
+            data-translate="enable_cookies"
+         >
+            Please enable cookies.
+         </div>
+         <div id="cf-error-details" class="cf-error-details-wrapper">
+            <div class="cf-wrapper cf-header cf-error-overview">
+               <h1>
+               <span class="cf-error-type" data-translate="please check back later"
+                  >Please check back later</span
+               >
+               </h1>
+               <h2 class="cf-subheadline">Error 1027</h2>
+            </div>
+
+            <div class="cf-section cf-wrapper">
+               <p>
+               <span style="width:16px; display:inline-block; vertical-align:text-top">
+                  <svg
+                     fill="#b03340"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                     d="M15.672,14.2,8.3,1.443a.352.352,0,0,0-.609,0L.328,14.2a.352.352,0,0,0,.3.527H15.368A.352.352,0,0,0,15.672,14.2ZM8.743,12.9a.221.221,0,0,1-.221.221H7.478a.221.221,0,0,1-.221-.221V11.86a.221.221,0,0,1,.221-.221H8.522a.221.221,0,0,1,.221.221Zm-.025-2.422H7.282L7.257,6.005H8.743Z"
+                     />
+                  </svg>
+               </span>
+               <strong>
+                    This website has been temporarily rate limited
+               </strong>
+               </p>
+               <p class="cf-error-description">
+                   You cannot access this site because the owner has reached their plan limits. Check back later once traffic has gone down.
+               </p>
+               
+               <p class="cf-error-description">
+                   If you are owner of this website, prevent this from happening again by upgrading your plan on the <a href="https://dash.cloudflare.com/?account=workers/plans" target="_blank">Cloudflare Workers dashboard</a>.
+               </p>
+               
+               
+               <p>
+               <a
+                  href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  Learn more about this issue →
+               </a>
+               </p>
+               
+            </div>
+
+            <div class="cf-error-footer cf-wrapper">
+    <p>
+      <span class="cf-footer-item">Cloudflare Ray ID: 9785a48a0cc8f07d</span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item">2025-09-01 15:01:24 UTC</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden">
+        <span class="cf-footer-separator">&bull;</span>
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">52.173.181.23</span>
+      </span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item"><span>Runs on </span><a rel="noopener noreferrer" href="https://workers.cloudflare.com?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare Workers</a></span>
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+         </div>
+      </div>
+
+       <script>
+    window._cf_translation = {};
+    
+    
+  </script> 
+   </body>
+</html>_9407_@Surfboardv2ray
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.9.172:8880?mode=gun&security=none&encryption=none&type=grpc#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🆯🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🆯🇅🇅🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇅🇅🇅🇡🇭🇪🇦🇩🇣🆯🇅🇅🇅🇅🇅🇅🇡🇹🇮🇹🇱🇪🇣🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇅🇅🇅🇅🇅🇅🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇸🇹🇾🇱🇪🇅🇹🇾🇵🇪🇢🇇🇹🇪🇽🇹🇔🇨🇸🇸🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇧🇴🇩🇾🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇷🇬🇮🇳🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇦🇩🇩🇮🇳🇬🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇴🇳🇹🇒🇫🇦🇲🇮🇱🇾🇟🇅🇒🇦🇵🇵🇱🇪🇒🇸🇾🇸🇹🇪🇲🇑🇅🇧🇱🇮🇳🇰🇲🇦🇨🇸🇾🇸🇹🇪🇲🇫🇴🇳🇹🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇇🇑🇅🇷🇴🇧🇴🇹🇴🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇪🇱🇻🇪🇹🇮🇨🇦🇑🇅🇦🇷🇮🇦🇱🇑🇅🇸🇦🇳🇸🇒🇸🇪🇷🇮🇫🇑🇅🇇🇦🇵🇵🇱🇪🇅🇨🇴🇱🇴🇷🇅🇪🇲🇴🇯🇮🇇🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇪🇲🇴🇯🇮🇇🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇸🇾🇲🇧🇴🇱🇇🇅🇆🇮🇲🇵🇴🇷🇹🇦🇳🇹🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇓🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇽🇒🇼🇮🇩🇹🇭🇟🇅🇛🇕🇕🇵🇽🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇾🇱🇪🇣🆯🇅🇅🇅🇡🇔🇭🇪🇦🇩🇣🆯🇅🇅🇅🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇡🇔🇸🇵🇦🇳🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇣🇪🇷🇷🇴🇷🇅🇖🇕🇗🇜🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇸🇹🇾🇱🇪🇢🇇🇼🇮🇩🇹🇭🇟🇖🇛🇵🇽🇠🇅🇩🇮🇸🇵🇱🇦🇾🇟🇮🇳🇱🇮🇳🇪🇒🇧🇱🇴🇨🇰🇠🇅🇻🇪🇷🇹🇮🇨🇦🇱🇒🇦🇱🇮🇬🇳🇟🇹🇪🇽🇹🇒🇹🇴🇵🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇻🇬🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇮🇱🇱🇢🇇🇈🇧🇕🇘🇘🇙🇕🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇽🇲🇱🇳🇸🇢🇇🇭🇹🇹🇵🇟🇔🇔🇼🇼🇼🇓🇼🇘🇓🇴🇷🇬🇔🇗🇕🇕🇕🇔🇸🇻🇬🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇻🇮🇪🇼🇧🇴🇽🇢🇇🇕🇅🇕🇅🇖🇛🇅🇖🇛🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇦🇹🇭🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇢🇇🇲🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇑🇝🇓🇘🇑🇖🇓🇙🇙🇘🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇒🇓🇛🇕🇞🇑🇕🇱🇓🇘🇗🇝🇑🇖🇙🇓🇗🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇓🇘🇓🇚🇗🇜🇭🇖🇚🇓🇘🇛🇝🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇿🇲🇝🇓🇜🇙🇘🇑🇖🇗🇓🇞🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇓🇗🇗🇖🇭🇜🇓🇙🇜🇝🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇒🇓🇗🇗🇖🇻🇖🇖🇓🇝🇛🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇒🇓🇗🇗🇖🇭🇝🇓🇚🇗🇗🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇓🇗🇗🇖🇿🇲🇒🇓🇕🇗🇚🇒🇗🇓🇙🇗🇗🇭🇜🇓🇗🇝🇗🇱🇜🇓🇗🇚🇜🇑🇛🇓🇕🇕🇚🇭🇝🇓🇜🇙🇘🇿🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇔🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇻🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇅🇨🇦🇳🇳🇴🇹🇅🇦🇨🇨🇪🇸🇸🇅🇹🇭🇮🇸🇅🇸🇮🇹🇪🇅🇧🇪🇨🇦🇺🇸🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇭🇦🇸🇅🇷🇪🇦🇨🇭🇪🇩🇅🇹🇭🇪🇮🇷🇅🇵🇱🇦🇳🇅🇱🇮🇲🇮🇹🇸🇓🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇅🇴🇳🇨🇪🇅🇹🇷🇦🇫🇫🇮🇨🇅🇭🇦🇸🇅🇬🇴🇳🇪🇅🇩🇴🇼🇳🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇑🇅🇵🇷🇪🇻🇪🇳🇹🇅🇹🇭🇮🇸🇅🇫🇷🇴🇲🇅🇭🇦🇵🇵🇪🇳🇮🇳🇬🇅🇦🇬🇦🇮🇳🇅🇧🇾🇅🇺🇵🇬🇷🇦🇩🇮🇳🇬🇅🇾🇴🇺🇷🇅🇵🇱🇦🇳🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇦🇸🇭🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇤🇦🇨🇨🇴🇺🇳🇹🇢🇼🇴🇷🇰🇪🇷🇸🇔🇵🇱🇦🇳🇸🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇅🇩🇦🇸🇭🇧🇴🇦🇷🇩🇡🇔🇦🇣🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇦🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇦🇧🇴🇺🇹🇔🇱🇮🇲🇮🇹🇸🇔🇈🇳🇺🇲🇧🇪🇷🇒🇴🇫🇒🇷🇪🇶🇺🇪🇸🇹🇸🇒🇱🇮🇲🇮🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇱🇪🇦🇷🇳🇅🇲🇴🇷🇪🇅🇦🇧🇴🇺🇹🇅🇹🇭🇮🇸🇅🇮🇸🇸🇺🇪🇅𡌷🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇦🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇝🇚🇦🇙🇝🇦🇝🇪🇗🇫🇫🇕🇜🇪🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇗🇕🇗🇚🇒🇕🇞🇒🇕🇖🇅🇖🇚🇟🇕🇖🇟🇗🇙🇅🇺🇹🇨🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇚🇗🇓🇖🇜🇘🇓🇖🇝🇖🇓🇗🇘🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇡🇸🇵🇦🇳🇣🇷🇺🇳🇸🇅🇴🇳🇅🇡🇔🇸🇵🇦🇳🇣🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇴🇷🇰🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇫🇴🇴🇹🇪🇷🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇅🇅🇅🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+   <!--<![endif]-->
+   <head>
+      <title>This website has been temporarily rate limited | ip-api.colaho6124.workers.dev | Cloudflare</title>
+      <meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
+<style>body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+      <style type="text/css">
+            body {
+               margin: 0;
+               padding: 0;
+            }
+
+            #cf-wrapper {
+               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                  "Segoe UI Symbol" !important;
+            }
+            .cf-error-description {
+               max-width: 600px;
+            }
+      </style>
+   </head>
+   <body>
+      <div id="cf-wrapper">
+         <div
+            id="cookie-alert"
+            class="cf-alert cf-alert-error cf-cookie-error"
+            data-translate="enable_cookies"
+         >
+            Please enable cookies.
+         </div>
+         <div id="cf-error-details" class="cf-error-details-wrapper">
+            <div class="cf-wrapper cf-header cf-error-overview">
+               <h1>
+               <span class="cf-error-type" data-translate="please check back later"
+                  >Please check back later</span
+               >
+               </h1>
+               <h2 class="cf-subheadline">Error 1027</h2>
+            </div>
+
+            <div class="cf-section cf-wrapper">
+               <p>
+               <span style="width:16px; display:inline-block; vertical-align:text-top">
+                  <svg
+                     fill="#b03340"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                     d="M15.672,14.2,8.3,1.443a.352.352,0,0,0-.609,0L.328,14.2a.352.352,0,0,0,.3.527H15.368A.352.352,0,0,0,15.672,14.2ZM8.743,12.9a.221.221,0,0,1-.221.221H7.478a.221.221,0,0,1-.221-.221V11.86a.221.221,0,0,1,.221-.221H8.522a.221.221,0,0,1,.221.221Zm-.025-2.422H7.282L7.257,6.005H8.743Z"
+                     />
+                  </svg>
+               </span>
+               <strong>
+                    This website has been temporarily rate limited
+               </strong>
+               </p>
+               <p class="cf-error-description">
+                   You cannot access this site because the owner has reached their plan limits. Check back later once traffic has gone down.
+               </p>
+               
+               <p class="cf-error-description">
+                   If you are owner of this website, prevent this from happening again by upgrading your plan on the <a href="https://dash.cloudflare.com/?account=workers/plans" target="_blank">Cloudflare Workers dashboard</a>.
+               </p>
+               
+               
+               <p>
+               <a
+                  href="https://developers.cloudflare.com/workers/about/limits/#number-of-requests-limit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  Learn more about this issue →
+               </a>
+               </p>
+               
+            </div>
+
+            <div class="cf-error-footer cf-wrapper">
+    <p>
+      <span class="cf-footer-item">Cloudflare Ray ID: 9785a48a8e2ff07e</span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item">2025-09-01 15:01:24 UTC</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden">
+        <span class="cf-footer-separator">&bull;</span>
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">52.173.181.23</span>
+      </span>
+      <span class="cf-footer-separator">&bull;</span>
+      <span class="cf-footer-item"><span>Runs on </span><a rel="noopener noreferrer" href="https://workers.cloudflare.com?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare Workers</a></span>
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+         </div>
+      </div>
+
+       <script>
+    window._cf_translation = {};
+    
+    
+  </script> 
+   </body>
+</html>_9408_@Surfboardv2ray
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.9.172:8880?mode=gun&security=none&encryption=none&type=grpc#🇡🇆🇩🇴🇨🇹🇾🇵🇪🇅🇭🇹🇲🇱🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇜🈂🇣🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇛🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇜🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇜🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇮🇪🇅🇝🈂🇣🇅🇅🇅🇅🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇅🇮🇪🇝🇅🇴🇱🇩🇮🇪🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🇅🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇅🇮🇪🇅🇝🈂🇣🇡🇆🇒🇒🇣🆯🇡🇭🇹🇲🇱🇅🇨🇱🇦🇸🇸🇢🇇🇳🇴🇒🇯🇸🇇🇅🇱🇦🇳🇬🇢🇇🇪🇳🇒🇺🇸🇇🇣🆯🇅🇅🇅🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇅🇅🇅🇡🇭🇪🇦🇩🇣🆯🇅🇅🇅🇅🇅🇅🇡🇹🇮🇹🇱🇪🇣🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🇅🈡🇅🇮🇵🇒🇦🇵🇮🇓🇨🇴🇱🇦🇭🇴🇛🇖🇗🇙🇓🇼🇴🇷🇰🇪🇷🇸🇓🇩🇪🇻🇅🈡🇅🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇡🇔🇹🇮🇹🇱🇪🇣🆯🇅🇅🇅🇅🇅🇅🇡🇲🇪🇹🇦🇅🇨🇭🇦🇷🇸🇪🇹🇢🇇🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇨🇴🇳🇹🇪🇳🇹🇒🇹🇾🇵🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇹🇪🇽🇹🇔🇭🇹🇲🇱🇠🇅🇨🇭🇦🇷🇸🇪🇹🇢🇺🇹🇫🇒🇝🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇭🇹🇹🇵🇒🇪🇶🇺🇮🇻🇢🇇🇽🇒🇺🇦🇒🇨🇴🇲🇵🇦🇹🇮🇧🇱🇪🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇮🇪🇢🇪🇩🇬🇪🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇷🇴🇧🇴🇹🇸🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇳🇴🇮🇳🇩🇪🇽🇑🇅🇳🇴🇫🇴🇱🇱🇴🇼🇇🇅🇔🇣🆯🇡🇲🇪🇹🇦🇅🇳🇦🇲🇪🇢🇇🇻🇮🇪🇼🇵🇴🇷🇹🇇🇅🇨🇴🇳🇹🇪🇳🇹🇢🇇🇼🇮🇩🇹🇭🇢🇩🇪🇻🇮🇨🇪🇒🇼🇮🇩🇹🇭🇑🇮🇳🇮🇹🇮🇦🇱🇒🇸🇨🇦🇱🇪🇢🇖🇇🇅🇔🇣🆯🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇇🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇨🇸🇸🇇🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇨🇸🇸🇇🇅🇔🇣🆯🇡🇆🇒🇒🈀🇮🇫🇅🇱🇹🇅🇮🇪🇅🇞🈂🇣🇡🇱🇮🇳🇰🇅🇷🇪🇱🇢🇇🇸🇹🇾🇱🇪🇸🇭🇪🇪🇹🇇🇅🇮🇩🇢🇌🇨🇫🈄🇸🇹🇾🇱🇪🇸🇒🇮🇪🇒🇨🇸🇸🇌🇅🇭🇷🇪🇫🇢🇇🇔🇨🇩🇳🇒🇨🇬🇮🇔🇸🇹🇾🇱🇪🇸🇔🇨🇫🇓🇪🇷🇷🇴🇷🇸🇓🇮🇪🇓🇨🇸🇸🇇🇅🇔🇣🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🇡🇸🇹🇾🇱🇪🇣🇧🇴🇩🇾🈠🇲🇦🇷🇬🇮🇳🇟🇕🇠🇵🇦🇩🇩🇮🇳🇬🇟🇕🈢🇡🇔🇸🇹🇾🇱🇪🇣🆯🆯🆯🇡🇆🇒🇒🈀🇮🇫🇅🇬🇹🇪🇅🇮🇪🇅🇖🇕🈂🇣🇡🇆🇒🇒🇣🆯🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇮🇫🇅🇍🇆🇳🇦🇻🇮🇬🇦🇹🇴🇷🇓🇨🇴🇴🇰🇮🇪🇪🇳🇦🇧🇱🇪🇩🇎🇅🈠🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇌🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇌🇑🇅🇫🇺🇳🇨🇹🇮🇴🇳🇅🇍🇎🇅🈠🆯🇅🇅🇅🇅🇅🇅🇻🇦🇷🇅🇨🇴🇴🇰🇮🇪🇪🇱🇅🇢🇅🇩🇴🇨🇺🇲🇪🇳🇹🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇌🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇌🇎🇠🆯🇅🇅🇅🇅🇅🇅🇨🇴🇴🇰🇮🇪🇪🇱🇓🇸🇹🇾🇱🇪🇓🇩🇮🇸🇵🇱🇦🇾🇅🇢🇅🇌🇧🇱🇴🇨🇰🇌🇠🆯🇅🇅🇅🇅🈢🇎🆯🇅🇅🈢🆯🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇆🇒🇒🇡🇆🈀🇪🇳🇩🇮🇫🈂🇒🇒🇣🆯🆯🇅🇅🇅🇅🇅🇅🇡🇸🇹🇾🇱🇪🇅🇹🇾🇵🇪🇢🇇🇹🇪🇽🇹🇔🇨🇸🇸🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇧🇴🇩🇾🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇷🇬🇮🇳🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇦🇩🇩🇮🇳🇬🇟🇅🇕🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇈🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇴🇳🇹🇒🇫🇦🇲🇮🇱🇾🇟🇅🇒🇦🇵🇵🇱🇪🇒🇸🇾🇸🇹🇪🇲🇑🇅🇧🇱🇮🇳🇰🇲🇦🇨🇸🇾🇸🇹🇪🇲🇫🇴🇳🇹🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇇🇑🇅🇷🇴🇧🇴🇹🇴🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇪🇱🇻🇪🇹🇮🇨🇦🇑🇅🇦🇷🇮🇦🇱🇑🇅🇸🇦🇳🇸🇒🇸🇪🇷🇮🇫🇑🇅🇇🇦🇵🇵🇱🇪🇅🇨🇴🇱🇴🇷🇅🇪🇲🇴🇯🇮🇇🇑🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇪🇲🇴🇯🇮🇇🇑🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇇🇸🇪🇬🇴🇪🇅🇺🇮🇅🇸🇾🇲🇧🇴🇱🇇🇅🇆🇮🇲🇵🇴🇷🇹🇦🇳🇹🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇓🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇅🈠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇲🇦🇽🇒🇼🇮🇩🇹🇭🇟🇅🇛🇕🇕🇵🇽🇠🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🈢🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇾🇱🇪🇣🆯🇅🇅🇅🇡🇔🇭🇪🇦🇩🇣🆯🇅🇅🇅🇡🇧🇴🇩🇾🇣🆯🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇩🇢🇇🇨🇴🇴🇰🇮🇪🇒🇦🇱🇪🇷🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇦🇱🇪🇷🇹🇅🇨🇫🇒🇦🇱🇪🇷🇹🇒🇪🇷🇷🇴🇷🇅🇨🇫🇒🇨🇴🇴🇰🇮🇪🇒🇪🇷🇷🇴🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇪🇳🇦🇧🇱🇪🈄🇨🇴🇴🇰🇮🇪🇸🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇵🇱🇪🇦🇸🇪🇅🇪🇳🇦🇧🇱🇪🇅🇨🇴🇴🇰🇮🇪🇸🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇮🇩🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇹🇦🇮🇱🇸🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇅🇨🇫🇒🇭🇪🇦🇩🇪🇷🇅🇨🇫🇒🇪🇷🇷🇴🇷🇒🇴🇻🇪🇷🇻🇮🇪🇼🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇹🇾🇵🇪🇇🇅🇩🇦🇹🇦🇒🇹🇷🇦🇳🇸🇱🇦🇹🇪🇢🇇🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🇵🇱🇪🇦🇸🇪🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇡🇔🇸🇵🇦🇳🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇭🇖🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇭🇗🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇺🇧🇭🇪🇦🇩🇱🇮🇳🇪🇇🇣🇪🇷🇷🇴🇷🇅🇖🇕🇗🇜🇡🇔🇭🇗🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇸🇪🇨🇹🇮🇴🇳🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇸🇹🇾🇱🇪🇢🇇🇼🇮🇩🇹🇭🇟🇖🇛🇵🇽🇠🇅🇩🇮🇸🇵🇱🇦🇾🇟🇮🇳🇱🇮🇳🇪🇒🇧🇱🇴🇨🇰🇠🇅🇻🇪🇷🇹🇮🇨🇦🇱🇒🇦🇱🇮🇬🇳🇟🇹🇪🇽🇹🇒🇹🇴🇵🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇻🇬🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇫🇮🇱🇱🇢🇇🇈🇧🇕🇘🇘🇙🇕🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇽🇲🇱🇳🇸🇢🇇🇭🇹🇹🇵🇟🇔🇔🇼🇼🇼🇓🇼🇘🇓🇴🇷🇬🇔🇗🇕🇕🇕🇔🇸🇻🇬🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇻🇮🇪🇼🇧🇴🇽🇢🇇🇕🇅🇕🇅🇖🇛🇅🇖🇛🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇦🇹🇭🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇩🇢🇇🇲🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇑🇝🇓🇘🇑🇖🇓🇙🇙🇘🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇒🇓🇛🇕🇞🇑🇕🇱🇓🇘🇗🇝🇑🇖🇙🇓🇗🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇓🇘🇓🇚🇗🇜🇭🇖🇚🇓🇘🇛🇝🇦🇓🇘🇚🇗🇓🇘🇚🇗🇑🇕🇑🇕🇑🇕🇑🇖🇚🇓🇛🇜🇗🇑🇖🇙🇓🇗🇿🇲🇝🇓🇜🇙🇘🇑🇖🇗🇓🇞🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇓🇗🇗🇖🇭🇜🇓🇙🇜🇝🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇒🇓🇗🇗🇖🇒🇓🇗🇗🇖🇻🇖🇖🇓🇝🇛🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇒🇓🇗🇗🇖🇭🇝🇓🇚🇗🇗🇦🇓🇗🇗🇖🇓🇗🇗🇖🇑🇕🇑🇕🇑🇖🇑🇓🇗🇗🇖🇓🇗🇗🇖🇿🇲🇒🇓🇕🇗🇚🇒🇗🇓🇙🇗🇗🇭🇜🇓🇗🇝🇗🇱🇜🇓🇗🇚🇜🇑🇛🇓🇕🇕🇚🇭🇝🇓🇜🇙🇘🇿🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇔🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇻🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇅🇭🇦🇸🇅🇧🇪🇪🇳🇅🇹🇪🇲🇵🇴🇷🇦🇷🇮🇱🇾🇅🇷🇦🇹🇪🇅🇱🇮🇲🇮🇹🇪🇩🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇸🇹🇷🇴🇳🇬🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇅🇨🇦🇳🇳🇴🇹🇅🇦🇨🇨🇪🇸🇸🇅🇹🇭🇮🇸🇅🇸🇮🇹🇪🇅🇧🇪🇨🇦🇺🇸🇪🇅🇹🇭🇪🇅🇴🇼🇳🇪🇷🇅🇭🇦🇸🇅🇷🇪🇦🇨🇭🇪🇩🇅🇹🇭🇪🇮🇷🇅🇵🇱🇦🇳🇅🇱🇮🇲🇮🇹🇸🇓🇅🇨🇭🇪🇨🇰🇅🇧🇦🇨🇰🇅🇱🇦🇹🇪🇷🇅🇴🇳🇨🇪🇅🇹🇷🇦🇫🇫🇮🇨🇅🇭🇦🇸🇅🇬🇴🇳🇪🇅🇩🇴🇼🇳🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇩🇪🇸🇨🇷🇮🇵🇹🇮🇴🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇮🇫🇅🇾🇴🇺🇅🇦🇷🇪🇅🇴🇼🇳🇪🇷🇅🇴🇫🇅🇹🇭🇮🇸🇅🇼🇪🇧🇸🇮🇹🇪🇑🇅🇵🇷🇪🇻🇪🇳🇹🇅🇹🇭🇮🇸🇅🇫🇷🇴🇲🇅🇭🇦🇵🇵🇪🇳🇮🇳🇬🇅🇦🇬🇦🇮🇳🇅🇧🇾🇅🇺🇵🇬🇷🇦🇩🇮🇳🇬🇅🇾🇴🇺🇷🇅🇵🇱🇦🇳🇅🇴🇳🇅🇹🇭🇪🇅🇡🇦🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇦🇸🇭🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇤🇦🇨🇨🇴🇺🇳🇹🇢🇼🇴🇷🇰🇪🇷🇸🇔🇵🇱🇦🇳🇸🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇅🇩🇦🇸🇭🇧🇴🇦🇷🇩🇡🇔🇦🇣🇓🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇦🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇩🇪🇻🇪🇱🇴🇵🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇔🇼🇴🇷🇰🇪🇷🇸🇔🇦🇧🇴🇺🇹🇔🇱🇮🇲🇮🇹🇸🇔🇈🇳🇺🇲🇧🇪🇷🇒🇴🇫🇒🇷🇪🇶🇺🇪🇸🇹🇸🇒🇱🇮🇲🇮🇹🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇱🇪🇦🇷🇳🇅🇲🇴🇷🇪🇅🇦🇧🇴🇺🇹🇅🇹🇭🇮🇸🇅🇮🇸🇸🇺🇪🇅𡌷🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇦🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇩🇮🇻🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇨🇫🇒🇼🇷🇦🇵🇵🇪🇷🇇🇣🆯🇅🇅🇅🇅🇡🇵🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇷🇦🇾🇅🇮🇩🇟🇅🇞🇜🇝🇚🇦🇙🇝🇦🇫🇪🇫🇧🇛🇧🇘🇝🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇗🇕🇗🇚🇒🇕🇞🇒🇕🇖🇅🇖🇚🇟🇕🇖🇟🇗🇙🇅🇺🇹🇨🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇅🇭🇮🇩🇩🇪🇳🇇🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇾🇴🇺🇷🇅🇮🇵🇟🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇧🇺🇹🇹🇴🇳🇅🇹🇾🇵🇪🇢🇇🇧🇺🇹🇹🇴🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇒🇧🇹🇳🇇🇣🇨🇱🇮🇨🇰🇅🇹🇴🇅🇷🇪🇻🇪🇦🇱🇡🇔🇧🇺🇹🇹🇴🇳🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇭🇮🇩🇩🇪🇳🇇🇅🇮🇩🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇣🇚🇗🇓🇖🇜🇘🇓🇖🇝🇖🇓🇗🇘🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇸🇪🇵🇦🇷🇦🇹🇴🇷🇇🇣🇋🇧🇺🇱🇱🇠🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇅🇅🇡🇸🇵🇦🇳🇅🇨🇱🇦🇸🇸🇢🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇇🇣🇡🇸🇵🇦🇳🇣🇷🇺🇳🇸🇅🇴🇳🇅🇡🇔🇸🇵🇦🇳🇣🇡🇦🇅🇷🇪🇱🇢🇇🇳🇴🇴🇵🇪🇳🇪🇷🇅🇳🇴🇷🇪🇫🇪🇷🇷🇪🇷🇇🇅🇭🇷🇪🇫🇢🇇🇭🇹🇹🇵🇸🇟🇔🇔🇼🇴🇷🇰🇪🇷🇸🇓🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇓🇨🇴🇲🇤🇺🇹🇲🈄🇸🇴🇺🇷🇨🇪🇢🇪🇷🇷🇴🇷🈄🇫🇴🇴🇹🇪🇷🇇🇅🇮🇩🇢🇇🇧🇷🇦🇳🇩🈄🇱🇮🇳🇰🇇🇅🇹🇦🇷🇬🇪🇹🇢🇇🈄🇧🇱🇦🇳🇰🇇🇣🇨🇱🇴🇺🇩🇫🇱🇦🇷🇪🇅🇼🇴🇷🇰🇪🇷🇸🇡🇔🇦🇣🇡🇔🇸🇵🇦🇳🇣🆯🇅🇅🇅🇅🇡🇔🇵🇣🆯🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🇍🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇫🇺🇳🇨🇹🇮🇴🇳🇅🇩🇍🇎🈠🇻🇦🇷🇅🇧🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇹🇪🇲🇒🇮🇵🇇🇎🇑🇨🇢🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇒🇷🇪🇻🇪🇦🇱🇇🇎🇠🇧🇋🇋🇇🇨🇱🇦🇸🇸🇱🇮🇸🇹🇇🇮🇳🇅🇧🇋🇋🇍🇧🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇑🇨🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇨🇱🇮🇨🇰🇇🇑🇫🇺🇳🇨🇹🇮🇴🇳🇍🇎🈠🇨🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇦🇩🇩🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🇠🇦🇓🇬🇪🇹🇪🇱🇪🇲🇪🇳🇹🇧🇾🇮🇩🇍🇇🇨🇫🇒🇫🇴🇴🇹🇪🇷🇒🇮🇵🇇🇎🇓🇨🇱🇦🇸🇸🇱🇮🇸🇹🇓🇷🇪🇲🇴🇻🇪🇍🇇🇭🇮🇩🇩🇪🇳🇇🇎🈢🇎🇎🈢🇻🇦🇷🇅🇦🇢🇩🇴🇨🇺🇲🇪🇳🇹🇠🇩🇴🇨🇺🇲🇪🇳🇹🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇋🇋🇦🇓🇦🇩🇩🇪🇻🇪🇳🇹🇱🇮🇸🇹🇪🇳🇪🇷🇍🇇🇩🇴🇲🇨🇴🇳🇹🇪🇳🇹🇱🇴🇦🇩🇪🇩🇇🇑🇩🇎🈢🇎🇍🇎🇠🇡🇔🇸🇨🇷🇮🇵🇹🇣🆯🇡🇔🇩🇮🇻🇣🇡🇆🇒🇒🇅🇔🇓🇪🇷🇷🇴🇷🇒🇫🇴🇴🇹🇪🇷🇅🇒🇒🇣🆯🇅🇅🇅🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🇅🇅🇅🇅🇅🇅🇡🇔🇩🇮🇻🇣🆯🆯🇅🇅🇅🇅🇅🇅🇅🇡🇸🇨🇷🇮🇵🇹🇣🆯🇅🇅🇅🇅🇼🇮🇳🇩🇴🇼🇓🈄🇨🇫🈄🇹🇷🇦🇳🇸🇱🇦🇹🇮🇴🇳🇅🇢🇅🈠🈢🇠🆯🇅🇅🇅🇅🆯🇅🇅🇅🇅🆯🇅🇅🇡🇔🇸🇨🇷🇮🇵🇹🇣🇅🆯🇅🇅🇅🇡🇔🇧🇴🇩🇾🇣🆯🇡🇔🇭🇹🇲🇱🇣<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
