@@ -3,13 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-                    </div>
-                    
-                </div>
-            </div><!-- /.section -->
-    
-            <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-    <p class="text-13">
       <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">97a293bd38091155</strong></span>
       <span class="cf-footer-separator sm:hidden">&bull;</span>
       <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
@@ -603,3 +596,10 @@ vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.170.191:443?security=&encrypt
         <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
         <div id="cf-error-details" class="cf-error-details-wrapper">
             <div class="cf-wrapper cf-header cf-error-overview">
+                <h1>
+                    <span class="cf-error-type" data-translate="error">Error</span>
+                    <span class="cf-error-code">1101</span>
+                    <small class="heading-ray-id">Ray ID: 97a293d6aee81251 &bull; 2025-09-05 03:18:07 UTC</small>
+                </h1>
+                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
+            </div><!-- /.header -->

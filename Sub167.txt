@@ -3,13 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-</div><!-- /.error-footer -->
-
-
-    </div><!-- /#cf-error-details -->
-  </div><!-- /#cf-wrapper -->
-
-  <script>
   window._cf_translation = {};
   
   
@@ -603,3 +596,10 @@ vless://c4587bda-09fc-4b3b-8221-4450fccc33d1@172.66.132.196:443?path=/Telegram@V
       <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">97a2a4a29dd9e3c6</strong></span>
       <span class="cf-footer-separator sm:hidden">&bull;</span>
       <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">172.212.164.22</span>
+        <span class="cf-footer-separator sm:hidden">&bull;</span>
+      </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+      

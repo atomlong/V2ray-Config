@@ -3,13 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1268_@Surfboardv2ray
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1269_@Surfboardv2ray
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1270_@Surfboardv2ray
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1271_@Surfboardv2ray
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1272_@Surfboardv2ray
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1273_@Surfboardv2ray
-vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1274_@Surfboardv2ray
 vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&host=/Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN&headerType=none&fp=chrome&spx=/TELEGRAM_JKVPN_JKVPN&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1275_@Surfboardv2ray
 vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.11.152:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&host=/Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN&headerType=none&fp=chrome&spx=/TELEGRAM_JKVPN_JKVPN&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1276_@Surfboardv2ray
 vless://1a6fe500-59da-4598-8576-256f06765ffb@212.41.8.198:443?security=reality&encryption=none&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ru.sfasti.ru&sid=16895459a2c7768d#🇷🇺RU_1277_@Surfboardv2ray
@@ -603,3 +596,10 @@ vless://1ae544de-4b19-4bd0-a7d6-e47e2e19a057@itmi-wzxrxkdhbjpnprhkkpplsjwawhssvo
 
 <!--[if gte IE 10]><!-->
 <script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
