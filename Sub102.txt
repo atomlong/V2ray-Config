@@ -3,7 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
         <span class="hidden" id="cf-footer-ip">40.76.117.242</span>
         <span class="cf-footer-separator sm:hidden">&bull;</span>
       </span>
@@ -603,3 +602,4 @@ vless://5badc2fd-58f1-4eb6-d099-83a35a25b007@chat.openai.com:8080?encryption=non
     <p class="text-13">
       <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9948cfbd8b8b8299</strong></span>
       <span class="cf-footer-separator sm:hidden">&bull;</span>
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
