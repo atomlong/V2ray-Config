@@ -3,19 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-  if (!navigator.cookieEnabled) {
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
-      cookieEl.style.display = 'block';
-    })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
         <div id="cf-error-details" class="cf-error-details-wrapper">
             <div class="cf-wrapper cf-header cf-error-overview">
                 <h1>
@@ -603,3 +590,16 @@ vless://1d684eb3-14c1-46bf-8737-d638f749076f@91.99.215.235:2053?mode=gun&securit
 vless://1d83ca4e-9708-4338-b177-403aa258488b@facelessvoid.fonixapp.org:22155?security=reality&encryption=none&pbk=DWplnF7h0HInlj88rSKUTwBti6hH_yFhxEtX3TKZn08&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=9ec128#🇩🇪DE_983_@Surfboardv2ray
 vless://1d9c14fb-5c81-4f59-ad87-3da5d6e2603b@V2ngFast.huqpmfood.ir:1146?encryption=none&type=xhttp&mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪DE_984_@Surfboardv2ray
 vless://1d9ee8f1-ab04-4707-abbe-1f5c5ee23401@www.speedtest.net:2086?path=/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2086&security=none&encryption=none&host=cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.&type=httpupgrade#🇨🇦CA_985_@Surfboardv2ray
+vless://1dc60f16-1593-485e-949d-8459edba6430@92.53.107.193:27129?security=reality&encryption=none&pbk=pqVSxW8Vukd7XiPZUQTd9ADNT2XBrCGJ4q2-7n6kQXQ&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=d70393f0ad1c7552#🇷🇺RU_986_@Surfboardv2ray
+vless://1df5e589-3301-427e-b0aa-0017ffde1555@65.109.199.233:4050?security=reality&encryption=none&pbk=oVRY8h7Njgw25j3CNhaJVMUys378tTvecrSRbrB3gyo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=mega.de&sid=2ebd6e17dec6a5d9#🇫🇮FI_987_@Surfboardv2ray
+vless://1df5e589-3301-427e-b0aa-0017ffde1555@91.107.155.193:4050?security=reality&encryption=none&pbk=oVRY8h7Njgw25j3CNhaJVMUys378tTvecrSRbrB3gyo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=mega.de&sid=2ebd6e17dec6a5d9#🇩🇪DE_988_@Surfboardv2ray
+vless://1df684ae-6299-4170-8c96-40c4381825c8@104.16.0.24:2086?path=/Free-VPN-CF-Geo-Project/AM1?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1&security=&encryption=none&host=joss.gpj2.dpdns.org&fp=chrome&type=ws&sni=joss.gpj2.dpdns.org#🇨🇦CA_989_@Surfboardv2ray
+vless://1df684ae-6299-4170-8c96-40c4381825c8@104.18.80.71:80?path=/Free-VPN-CF-Geo-Project/AM1?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1&security=&encryption=none&host=joss.gpj2.dpdns.org&fp=chrome&type=ws&sni=joss.gpj2.dpdns.org#🇨🇦CA_990_@Surfboardv2ray
+vless://1df684ae-6299-4170-8c96-40c4381825c8@104.24.0.125:2082?path=/Free-VPN-CF-Geo-Project/AM1?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1&security=&encryption=none&host=joss.gpj2.dpdns.org&fp=chrome&type=ws&sni=joss.gpj2.dpdns.org#🇨🇦CA_991_@Surfboardv2ray
+vless://1df684ae-6299-4170-8c96-40c4381825c8@104.24.0.186:2082?path=/Free-VPN-CF-Geo-Project/AM1?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1&security=&encryption=none&host=joss.gpj2.dpdns.org&fp=chrome&type=ws&sni=joss.gpj2.dpdns.org#🇨🇦CA_992_@Surfboardv2ray
+vless://1df79df3-908d-4458-8eb0-fd31b0e2e22f@157.230.180.116:2053?security=reality&encryption=none&pbk=PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.openstreetmap.org&sid=54c3eae868b911#🇺🇸US_993_@Surfboardv2ray
+vless://1df79df3-908d-4458-8eb0-fd31b0e2e22f@157.230.180.116:2053?security=reality&encryption=none&pbk=PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.openstreetmap.org&sid=54c3eae868b911#🇺🇸US_994_@Surfboardv2ray
+vless://1df79df3-908d-4458-8eb0-fd31b0e2e22f@167.99.239.69:2053?security=reality&encryption=none&pbk=PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.openstreetmap.org&sid=54c3eae868b911#🇺🇸US_995_@Surfboardv2ray
+vless://1df79df3-908d-4458-8eb0-fd31b0e2e22f@167.99.239.69:2053?security=reality&encryption=none&pbk=PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.openstreetmap.org&sid=54c3eae868b911#🇺🇸US_996_@Surfboardv2ray
+vless://1df79df3-908d-4458-8eb0-fd31b0e2e22f@198.199.84.91:2053?security=reality&encryption=none&pbk=PVM-pgM-Y1_yxII9Oi8yWK6OkXmJmQynk9DkMEj4YW8&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.openstreetmap.org&sid=54c3eae868b911#🇺🇸US_997_@Surfboardv2ray
+vless://1dfe7be3-d515-42f0-87d1-5c63eb1f251c@172.66.40.99:443?path=/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048&security=tls&alpn=h2,http/1.1&encryption=none&host=www.dollardoon.com&fp=chrome&type=ws&sni=www.dollardoon.com#🇨🇦CA_998_@Surfboardv2ray
