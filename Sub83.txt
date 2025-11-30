@@ -3,6 +3,8 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
     })
   }
 </script>
@@ -601,5 +603,3 @@ vless://630b911a-1451-4d6c-b480-0c53c7ec0373@poland.aliusvpn.ru:8443/?type=tcp&e
 <!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" /><![endif]-->
 <style>body{margin:0;padding:0}</style>
 
-
-<!--[if gte IE 10]><!-->
