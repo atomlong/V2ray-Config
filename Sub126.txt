@@ -3,6 +3,7 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+      var cookieEl = document.getElementById('cookie-alert');
       cookieEl.style.display = 'block';
     })
   }
@@ -602,4 +603,3 @@ vless://TEL--JKVPN--JKVPN-29@www.speedtest.net:2095?path=/TELEGRAM--BYA--CHANEL-
 
 
 <!--[if gte IE 10]><!-->
-<script>
