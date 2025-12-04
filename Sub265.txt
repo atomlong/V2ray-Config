@@ -3,6 +3,12 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+<body>
+    <div id="cf-wrapper">
+        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+        <div id="cf-error-details" class="cf-error-details-wrapper">
+            <div class="cf-wrapper cf-header cf-error-overview">
+                <h1>
                     <span class="cf-error-type" data-translate="error">Error</span>
                     <span class="cf-error-code">1101</span>
                     <small class="heading-ray-id">Ray ID: 9a8a51668e4e78e5 &bull; 2025-12-04 09:36:11 UTC</small>
@@ -597,9 +603,3 @@ vless://a7e04b44-855e-4fe7-8fa0-31894e928bce@178.128.14.187:443?security=reality
         <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
         <div id="cf-error-details" class="cf-error-details-wrapper">
             <div class="cf-wrapper cf-header cf-error-overview">
-                <h1>
-                    <span class="cf-error-type" data-translate="error">Error</span>
-                    <span class="cf-error-code">1101</span>
-                    <small class="heading-ray-id">Ray ID: 9a8a51697e202939 &bull; 2025-12-04 09:36:11 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
