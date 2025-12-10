@@ -3,6 +3,26 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+</head>
+<body>
+    <div id="cf-wrapper">
+        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+        <div id="cf-error-details" class="cf-error-details-wrapper">
+            <div class="cf-wrapper cf-header cf-error-overview">
+                <h1>
+                    <span class="cf-error-type" data-translate="error">Error</span>
+                    <span class="cf-error-code">1101</span>
+                    <small class="heading-ray-id">Ray ID: 9ab63079680711fd &bull; 2025-12-09 17:23:16 UTC</small>
+                </h1>
+                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
             </div><!-- /.header -->
     
             <section></section><!-- spacer -->
@@ -583,23 +603,3 @@ vless://371c3285-f15a-4a64-b8e1-1ad8a5d8f01d@v2ray_configs_pools.fast.hosting-ip
 vless://37222513-a689-4649-b7fb-671eee5fc629@65.109.191.124:355?type=xhttp&encryption=none&path=/@Adamak_vpn&host=&mode=auto&security=reality&pbk=zSmogGO_DvTO6yWUPQmcDvCmeQlMmUOShXlhgO2Y-x0&fp=chrome&sni=google.com&sid=ba848d013f3aa0&spx=/#🇫🇮FI_1479_@Surfboardv2ray
 vless://37222513-a689-4649-b7fb-671eee5fc629@65.109.198.250:455?mode=auto&path=/@Adamak_vpn&security=reality&encryption=none&pbk=zSmogGO_DvTO6yWUPQmcDvCmeQlMmUOShXlhgO2Y-x0&fp=chrome&spx=/&type=xhttp&sni=google.com&sid=ba848d013f3aa0#🇫🇮FI_1480_@Surfboardv2ray
 vless://376734bc-4db8-4317-b451-af0262cb01c7@104.16.53.11:8443?path=/Tel-@V2ray_Alpha/?ed&security=tls&alpn=http/1.1&encryption=none&host=invincible.fafa20.shop&fp=chrome&type=ws&sni=InviNCIble.FAfA20.shOP#🇨🇦CA_1481_@Surfboardv2ray
-vless://376734bc-4db8-4317-b451-af0262cb01c7@104.21.75.120:2087?path=/Telegram@V2ray_Alpha/=?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=invincible.fafa20.shop&fp=chrome&type=ws&sni=InvInciBLe.FAFa20.sHop#🇨🇦CA_1482_@Surfboardv2ray
-vless://376f07ee-609f-fa11-0eb6-7c11d08b34df@Np.sefrtasad.com:2000?security=reality&encryption=none&pbk=Q-394d0JQhk1CJYBNTxmwoZHHDl1xj5r8egsesyIZmA&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=connectivitycheck.gstatic.com&sid=a98e1de9&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#🇳🇱NL_1483_@Surfboardv2ray
-vless://378df8e8-add6-4416-9eba-e30042fc19c8@37.27.220.157:443?security=reality&encryption=none&pbk=98o3NKmGSULn2eRsvgrWQk9blOwPAQ4Lt4YWu_R-GBk&headerType=none&fp=chrome&type=tcp&sni=www.speedtest.net&sid=cbfe#🇫🇮FI_1484_@Surfboardv2ray
-vless://378df8e8-add6-4416-9eba-e30042fc19c8@37.27.220.157:443?security=reality&encryption=none&pbk=98o3NKmGSULn2eRsvgrWQk9blOwPAQ4Lt4YWu_R-GBk&host=/?BIA_CHANEL@JOKERRVPN&headerType=none&fp=chrome&spx=/JOKERRVPNBIA_CHANEL@JOKERRVPN&type=tcp&sni=www.speedtest.net&sid=cbfe#🇫🇮FI_1485_@Surfboardv2ray
-vless://37927bfc-654c-4456-9a3d-8b463e12ac85@www.speedtest.net:2086?path=/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2086&security=none&encryption=none&host=cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.&type=httpupgrade#🇨🇦CA_1486_@Surfboardv2ray
-vless://37a0bd7c-8b9f-4693-8916-bd1e2da0a817@fd.socks.news:80/?type=ws&encryption=none&flow=&host=007.suburl.sbs&path=/#🇪🇪EE_1487_@Surfboardv2ray
-vless://37b4fc07-e0ab-4036-8843-6ed6945d3a3c@cfip.penubit.com:443?encryption=none&type=httpupgrade&host=franode.penubit.com&path=/Penubit&security=tls&fp=chrome&sni=franode.penubit.com&alpn=http/1.1&mux=4#🇨🇦CA_1488_@Surfboardv2ray
-vless://37b4fc07-e0ab-4036-8843-6ed6945d3a3c@cfip.penubit.com:443?encryption=none&type=httpupgrade&host=franode.penubit.com&path=/Penubit&security=tls&fp=chrome&sni=franode.penubit.com&alpn=http/1.1&mux=4#🇨🇦CA_1489_@Surfboardv2ray
-vless://37d04b77-d08c-4f34-958d-d9f2ff9cc32a@Zula.iR:80?type=ws&path=/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560&host=binextv.iransheep.web.tr.&security=none#🇨🇦CA_1490_@Surfboardv2ray
-vless://37d95fc6-9bc2-44de-9a67-e122821475b9@62.60.247.164:8880?encryption=none&type=ws&host=websocket.network.www.speedtest.net.kkoccashor.vegaskala.com.&path=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048&security=none#🇳🇱NL_1491_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@25.25.25.253:2096/?type=ws&encryption=none&flow=&host=spplesh.hatlikarious.org&path=/&security=tls&sni=spplesh.hatlikarious.org&fp=chrome#🇬🇧GB_1492_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@25.25.25.253:2096?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=spplesh.hatlikarious.org&fp=chrome&type=ws&sni=spplesh.hatlikarious.org#🇬🇧GB_1493_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096/?type=ws&encryption=none&flow=&host=svsfes.hatlikarious.org&path=/&security=tls&sni=svsfes.hatlikarious.org&fp=chrome#🇨🇦CA_1494_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096?path=/&security=tls&encryption=none&host=svsfes.hatlikarious.org&fp=chrome&type=ws&sni=svsfes.hatlikarious.org#🇨🇦CA_1495_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096?path=/&security=tls&encryption=none&host=svsfes.hatlikarious.org&fp=chrome&type=ws&sni=svsfes.hatlikarious.org#🇨🇦CA_1496_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096?path=/&security=tls&encryption=none&host=svsfes.hatlikarious.org&type=ws&sni=svsfes.hatlikarious.org#🇨🇦CA_1497_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096?path=/&security=tls&encryption=none&insecure=0&host=svsfes.hatlikarious.org&type=ws&allowInsecure=0&sni=svsfes.hatlikarious.org#🇨🇦CA_1498_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096?path=/&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=svsfes.hatlikarious.org#🇨🇦CA_1499_@Surfboardv2ray
-vless://38021ff2-6778-4363-92b1-d70ac11acf51@www.speedtest.net:2096?path=/&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=svsfes.hatlikarious.org#🇨🇦CA_1500_@Surfboardv2ray
-vless://38046915-6d82-4d86-8510-b5bcc569d0ea@www.speedtest.net:443?path=/?ed=2560&security=tls&encryption=none&host=MydigiKala.pAges.dEv&type=ws&sni=PaGes.deV#🇨🇦CA_1501_@Surfboardv2ray
