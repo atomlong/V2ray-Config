@@ -3,7 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-            <div class="cf-wrapper cf-header cf-error-overview">
                 <h1>
                     <span class="cf-error-type" data-translate="error">Error</span>
                     <span class="cf-error-code">1101</span>
@@ -603,3 +602,4 @@ vless://2825bed8-db26-4722-81db-0f572f19dac5@helsinki.fonixapp.org:2083?security
 <body>
     <div id="cf-wrapper">
         <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+        <div id="cf-error-details" class="cf-error-details-wrapper">
