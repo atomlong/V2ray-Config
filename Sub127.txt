@@ -3,6 +3,8 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
         <span class="hidden" id="cf-footer-ip">20.171.125.131</span>
         <span class="cf-footer-separator sm:hidden">&bull;</span>
       </span>
@@ -601,5 +603,3 @@ vless://3739354c-6971-4e73-abac-bb2534fc9ed8@104.248.161.198:443/?type=ws&encryp
         Your IP:
         <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
         <span class="hidden" id="cf-footer-ip">20.171.125.131</span>
-        <span class="cf-footer-separator sm:hidden">&bull;</span>
-      </span>
