@@ -3,6 +3,8 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+        Your IP:
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
         <span class="hidden" id="cf-footer-ip">128.24.161.40</span>
         <span class="cf-footer-separator sm:hidden">&bull;</span>
       </span>
@@ -601,5 +603,3 @@ vless://c69af2a6-adbc-49e6-bb54-281b1ea18812@91.107.158.231:80?mode=auto&path=/t
                         <h2 data-translate="what_happened">What happened?</h2>
                             <p>You've requested a page on a website (ip-api.colaho6124.workers.dev) that is on the <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_100x" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
                     </div>
-                    
-                    <div class="cf-column">
