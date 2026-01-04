@@ -3,9 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-                    <small class="heading-ray-id">Ray ID: 9b6e6cf38f8f2331 &bull; 2026-01-01 02:00:53 UTC</small>
-                </h1>
-                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
             </div><!-- /.header -->
     
             <section></section><!-- spacer -->
@@ -603,3 +600,6 @@ vless://33d7bcae-57c5-4336-8aff-e01c99594c0d@46.62.214.228:443?path=/&security=t
 <!--[if gte IE 10]><!-->
 <script>
   if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
