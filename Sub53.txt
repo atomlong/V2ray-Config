@@ -3,6 +3,7 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+      cookieEl.style.display = 'block';
     })
   }
 </script>
@@ -602,4 +603,3 @@ vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed&secur
     window.addEventListener('DOMContentLoaded', function () {
       var cookieEl = document.getElementById('cookie-alert');
       cookieEl.style.display = 'block';
-    })

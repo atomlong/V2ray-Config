@@ -3,6 +3,7 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+      <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
         Your IP:
         <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
         <span class="hidden" id="cf-footer-ip">52.190.182.225</span>
@@ -602,4 +603,3 @@ vless://6257bd0f-18d6-41cc-8e41-fe183cf63881@quarenty.site:8443/?type=tcp&encryp
                     <div class="cf-column">
                         <h2 data-translate="what_can_i_do">What can I do?</h2>
                             <p><strong>If you are the owner of this website:</strong><br />refer to <a href="https://developers.cloudflare.com/workers/observability/errors/" target="_blank">Workers - Errors and Exceptions</a> and check Workers Logs for ip-api.colaho6124.workers.dev.</p>
-                    </div>
