@@ -3,8 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-    window.addEventListener('DOMContentLoaded', function () {
-      var cookieEl = document.getElementById('cookie-alert');
       cookieEl.style.display = 'block';
     })
   }
@@ -603,3 +601,5 @@ vless://546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f@nodejs.org:80/?path=/?ed&security=n
         <span class="hidden" id="cf-footer-ip">68.220.61.168</span>
         <span class="cf-footer-separator sm:hidden">&bull;</span>
       </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+      
