@@ -3,8 +3,6 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
-vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@108.162.194.176:2096?path=/45.76.183.217=49292&security=tls&encryption=none&host=hetz.x-smm.com&type=ws&sni=hetz.x-smm.com#🇨🇦CA_814_@Surfboardv2ray
-vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@108.162.195.45:2096?allowInsecure=1&encryption=none&host=hetz.x-smm.com&path=/45.76.183.217=49292&security=tls&sni=hetz.x-smm.com&type=ws#🇨🇦CA_815_@Surfboardv2ray
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@162.159.38.176:2096?path=/45.76.183.217=49292&security=tls&encryption=none&insecure=0&host=hetz.x-smm.com&type=ws&allowInsecure=0&sni=hetz.x-smm.com#🇺🇸US_816_@Surfboardv2ray
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@162.159.38.176:2096?path=/45.76.183.217=49292&security=tls&encryption=none&insecure=0&host=hetz.x-smm.com&type=ws&allowInsecure=0&sni=hetz.x-smm.com#🇺🇸US_817_@Surfboardv2ray
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@162.159.38.99:2096?path=/45.76.183.217=49292&security=tls&encryption=none&insecure=0&host=hetz.x-smm.com&type=ws&allowInsecure=0&sni=hetz.x-smm.com#🇺🇸US_818_@Surfboardv2ray
@@ -603,3 +601,5 @@ vless://43120d74-cea8-416d-994c-e17367d868b7@50.7.4.107:443?security=tls&sni=you
   if (!navigator.cookieEnabled) {
     window.addEventListener('DOMContentLoaded', function () {
       var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
