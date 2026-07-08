@@ -3,6 +3,14 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+        <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+        <span class="hidden" id="cf-footer-ip">20.189.186.0</span>
+        <span class="cf-footer-separator sm:hidden">&bull;</span>
+      </span>
+      <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+      
+    </p>
+    <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
   </div><!-- /.error-footer -->
 
         </div><!-- /#cf-error-details -->
@@ -595,11 +603,3 @@ vless://9df8feba-3070-40f4-94bb-0e538fcc50c6@104.16.72.70:443?path=/9df8feba-307
 vless://9df8feba-3070-40f4-94bb-0e538fcc50c6@45.131.4.115:443?path=/9df8feba-3070-40f4-94bb-0e538fcc50c6-vless?ed=2560&security=tls&encryption=none&insecure=0&host=off-administered-publicity-ate.trycloudflare.com&type=ws&allowInsecure=0&sni=off-administered-publicity-ate.trycloudflare.com#🇮🇷IR_2713_@Surfboardv2ray
 vless://9e1671d2-4092-4ae4-93b3-1d2db0f1a071@89.39.121.54:110?security=&encryption=none&headerType=none&type=tcp#🇩🇪DE_2714_@Surfboardv2ray
 vless://9e1671d2-4092-4ae4-93b3-1d2db0f1a071@89.39.121.54:110?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE_2715_@Surfboardv2ray
-vless://9e1671d2-4092-4ae4-93b3-1d2db0f1a071@89.39.121.54:110?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE_2716_@Surfboardv2ray
-vless://9e1671d2-4092-4ae4-93b3-1d2db0f1a071@89.39.121.54:110?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE_2717_@Surfboardv2ray
-vless://9e1671d2-4092-4ae4-93b3-1d2db0f1a071@89.39.121.54:110?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE_2718_@Surfboardv2ray
-vless://9e1671d2-4092-4ae4-93b3-1d2db0f1a071@89.39.121.54:110?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE_2719_@Surfboardv2ray
-vless://9e4074c6-f048-46c2-9626-37c3be19a432@ge2ir.botdeep.pw:2083?security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=pn.sirdeep.com#🇮🇷IR_2720_@Surfboardv2ray
-vless://9e4074c6-f048-46c2-9626-37c3be19a432@tr1ir.botdeep.pw:2083?security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=pn.sirdeep.com#🇮🇷IR_2721_@Surfboardv2ray
-vless://9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b@47.83.153.19:59750?security=reality&encryption=none&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&host=@SylphNet&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com#🇭🇰HK_2722_@Surfboardv2ray
-vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#🇮🇹IT_2723_@Surfboardv2ray

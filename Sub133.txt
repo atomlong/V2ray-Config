@@ -3,6 +3,14 @@
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/coldwater-10/V2ray-Config
 #profile-web-page-url: https://github.com/coldwater-10/V2ray-Config
+                    <span class="cf-error-type" data-translate="error">Error</span>
+                    <span class="cf-error-code">1101</span>
+                    <small class="heading-ray-id">Ray ID: a1818d134df1dfce &bull; 2026-07-08 19:38:45 UTC</small>
+                </h1>
+                <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
+            </div><!-- /.header -->
+    
+            <section></section><!-- spacer -->
     
             <div class="cf-section cf-wrapper">
                 <div class="cf-columns two">
@@ -595,11 +603,3 @@ vless://f0b26394-a5a5-4b83-a639-94e49ea46108@ravan-plus.ir:443?path=/In_Panel_Ra
       var cookieEl = document.getElementById('cookie-alert');
       cookieEl.style.display = 'block';
     })
-  }
-</script>
-<!--<![endif]-->
-
-</head>
-<body>
-    <div id="cf-wrapper">
-        <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
